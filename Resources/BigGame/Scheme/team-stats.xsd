@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" >
+	<!-- XML Schema Generated from XML Document on Mon Dec 29 2014 23:49:40 GMT+0100 (CET) -->
+	<!-- with XmlGrid.net Free Online Service http://xmlgrid.net -->
+	<xs:element name="sports-content">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="sports-metadata">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="sports-title" type="xs:string"/>
+						</xs:sequence>
+						<xs:attribute name="doc-id" type="xs:string"/>
+						<xs:attribute name="date-time" type="xs:string"/>
+						<xs:attribute name="publisher" type="xs:string"/>
+						<xs:attribute name="language" type="xs:string"/>
+						<xs:attribute name="document-class" type="xs:string"/>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="sports-event">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="event-metadata">
+								<xs:complexType>
+									<xs:attribute name="id" type="xs:string"/>
+									<xs:attribute name="event-key" type="xs:int"/>
+									<xs:attribute name="event-status" type="xs:string"/>
+									<xs:attribute name="start-date-time" type="xs:string"/>
+									<xs:attribute name="start-weekday" type="xs:string"/>
+									<xs:attribute name="heat-number" type="xs:int"/>
+									<xs:attribute name="site-attendance" type="xs:int"/>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="team" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="team-metadata">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="name">
+														<xs:complexType>
+															<xs:attribute name="full" type="xs:string"/>
+															<xs:attribute name="nickname" type="xs:string"/>
+														</xs:complexType>
+													</xs:element>
+												</xs:sequence>
+												<xs:attribute name="id" type="xs:string"/>
+												<xs:attribute name="team-key" type="xs:int"/>
+												<xs:attribute name="alignment" type="xs:string"/>
+												<xs:attribute name="average-age" type="xs:double"/>
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="team-stats" maxOccurs="unbounded">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="team-stats-soccer">
+														<xs:complexType>
+															<xs:sequence>
+																<xs:element name="stats-soccer-offensive">
+																	<xs:complexType>
+																		<xs:attribute name="shots-total" type="xs:int"/>
+																		<xs:attribute name="shots-on-goal-total" type="xs:int"/>
+																		<xs:attribute name="offsides" type="xs:int"/>
+																		<xs:attribute name="corner-kicks" type="xs:int"/>
+																		<xs:attribute name="corner-kicks-left" type="xs:int"/>
+																		<xs:attribute name="corner-kicks-right" type="xs:int"/>
+																		<xs:attribute name="shots-total-outside-box" type="xs:int"/>
+																		<xs:attribute name="shots-total-inside-box" type="xs:int"/>
+																		<xs:attribute name="shots-foot-inside-box" type="xs:int"/>
+																		<xs:attribute name="shots-foot-outside-box" type="xs:int"/>
+																		<xs:attribute name="shots-total-header" type="xs:int"/>
+																		<xs:attribute name="crosses" type="xs:int"/>
+																		<xs:attribute name="crosses-left" type="xs:int"/>
+																		<xs:attribute name="crosses-right" type="xs:int"/>
+																		<xs:attribute name="freekicks" type="xs:int"/>
+																	</xs:complexType>
+																</xs:element>
+																<xs:element name="stats-soccer-defensive">
+																	<xs:complexType>
+																		<xs:attribute name="saves" type="xs:int"/>
+																	</xs:complexType>
+																</xs:element>
+																<xs:element name="stats-soccer-foul">
+																	<xs:complexType>
+																		<xs:attribute name="fouls-suffered" type="xs:int"/>
+																		<xs:attribute name="fouls-committed" type="xs:int"/>
+																		<xs:attribute name="yellow-cards" type="xs:int"/>
+																		<xs:attribute name="red-cards" type="xs:int"/>
+																		<xs:attribute name="yellow-red-cards" type="xs:int"/>
+																		<xs:attribute name="handballs" type="xs:int"/>
+																	</xs:complexType>
+																</xs:element>
+															</xs:sequence>
+															<xs:attribute name="duels-won" type="xs:int"/>
+															<xs:attribute name="duels-lost" type="xs:int"/>
+															<xs:attribute name="duels-won-percentage" type="xs:double"/>
+															<xs:attribute name="passes-completed" type="xs:int"/>
+															<xs:attribute name="passes-failed" type="xs:int"/>
+															<xs:attribute name="passes-completions-percentage" type="xs:double"/>
+															<xs:attribute name="passes-failed-percentage" type="xs:double"/>
+															<xs:attribute name="balls-touched" type="xs:int"/>
+															<xs:attribute name="balls-touched-percentage" type="xs:double"/>
+															<xs:attribute name="tracking-distance" type="xs:double"/>
+															<xs:attribute name="tracking-sprints" type="xs:int"/>
+															<xs:attribute name="tracking-fast-runs" type="xs:int"/>
+														</xs:complexType>
+													</xs:element>
+												</xs:sequence>
+												<xs:attribute name="date-coverage-type" type="xs:string"/>
+												<xs:attribute name="date-coverage-value" type="xs:string"/>
+												<xs:attribute name="period-value" type="xs:int"/>
+												<xs:attribute name="score" type="xs:int"/>
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="team-stats-tracking">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="stats-time">
+														<xs:complexType>
+															<xs:attribute name="playedTime" type="xs:double"/>
+														</xs:complexType>
+													</xs:element>
+													<xs:element name="stats-ball">
+														<xs:complexType>
+															<xs:attribute name="ballPossessionTime" type="xs:double"/>
+															<xs:attribute name="ballPossessionTime_OwnHalf" type="xs:double"/>
+															<xs:attribute name="ballPossessionTime_OpposingHalf" type="xs:double"/>
+															<xs:attribute name="ballInOwnHalf" type="xs:double"/>
+															<xs:attribute name="ballInOpposingHalf" type="xs:double"/>
+															<xs:attribute name="numberOfBallPossesions" type="xs:int"/>
+															<xs:attribute name="numberOfOpponentBallPossesions" type="xs:int"/>
+															<xs:attribute name="numberOfBallPossesionsToScoreAttempt" type="xs:double"/>
+															<xs:attribute name="timeOfBallPossesionsToScoreAttempt" type="xs:double"/>
+															<xs:attribute name="numberOfBallCaptures_OwnHalf" type="xs:int"/>
+														</xs:complexType>
+													</xs:element>
+													<xs:element name="stats-position">
+														<xs:complexType>
+															<xs:attribute name="avgDistance_AllOutfieldPlayers" type="xs:double"/>
+															<xs:attribute name="avgDistance_AllOutfieldPlayers_BallInPossesion" type="xs:double"/>
+															<xs:attribute name="avgDistance_AllOutfieldPlayers_BallNotInPossesion" type="xs:double"/>
+															<xs:attribute name="avgDistance_Defenders" type="xs:double"/>
+															<xs:attribute name="avgDistance_Midfielders" type="xs:double"/>
+															<xs:attribute name="avgDistance_LastDefender_EndLine" type="xs:double"/>
+															<xs:attribute name="avgDistance_LastDefender_Goalkeeper" type="xs:double"/>
+															<xs:attribute name="avgDistance_CenterBacks_DefensiveMidfielder" type="xs:double"/>
+															<xs:attribute name="avgDistance_Midfielder_Forwards" type="xs:double"/>
+															<xs:attribute name="avgNumberOfPlayers_BehindBall_BallNotInPossesion" type="xs:double"/>
+															<xs:attribute name="avgDistance_InFrontOfBall_BallInPossesion" type="xs:double"/>
+														</xs:complexType>
+													</xs:element>
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

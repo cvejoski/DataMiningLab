@@ -1,0 +1,337 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="sports-content">
+		<xs:annotation>
+			<xs:documentation>Copyright (c) 2003 - 2011 proFILE Computersysteme GmbH.
+    All Rights Reserved.
+    proFILE MAKES NO REPRESENTATIONS OR WARRANTIES ABOUT THE SUITABILITY OF
+    THE SOFTWARE, EITHER EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE
+    IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE,
+    OR NON-INFRINGEMENT. proFILE SHALL NOT BE LIABLE FOR ANY DAMAGES SUFFERED
+    BY LICENSEE AS A RESULT OF USING, MODIFYING OR DISTRIBUTING THIS SOFTWARE
+    OR ITS DERIVATIVES.</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="sports-metadata">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element type="xs:string" name="sports-title"/>
+						</xs:sequence>
+						<xs:attribute type="xs:string" name="date-time"/>
+						<xs:attribute type="xs:string" name="doc-id"/>
+						<xs:attribute type="xs:string" name="publisher"/>
+						<xs:attribute type="xs:string" name="language"/>
+						<xs:attribute type="xs:string" name="document-class"/>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="sports-event">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="event-metadata">
+								<xs:complexType>
+									<xs:simpleContent>
+										<xs:extension base="xs:string">
+											<xs:attribute type="xs:string" name="id"/>
+											<xs:attribute type="xs:int" name="event-key"/>
+											<xs:attribute type="xs:string" name="event-status"/>
+											<xs:attribute type="xs:string" name="start-date-time"/>
+											<xs:attribute type="xs:string" name="start-weekday"/>
+											<xs:attribute type="xs:byte" name="heat-number"/>
+											<xs:attribute type="xs:int" name="site-attendance"/>
+										</xs:extension>
+									</xs:simpleContent>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="team" maxOccurs="unbounded" minOccurs="0">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="team-metadata">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="name">
+														<xs:complexType>
+															<xs:simpleContent>
+																<xs:extension base="xs:string">
+																	<xs:attribute type="xs:string" name="full" use="optional"/>
+																	<xs:attribute type="xs:string" name="nickname" use="optional"/>
+																</xs:extension>
+															</xs:simpleContent>
+														</xs:complexType>
+													</xs:element>
+												</xs:sequence>
+												<xs:attribute type="xs:string" name="id" use="optional"/>
+												<xs:attribute type="xs:byte" name="team-key" use="optional"/>
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="player" maxOccurs="unbounded" minOccurs="0">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="player-metadata">
+														<xs:complexType>
+															<xs:sequence>
+																<xs:element name="name">
+																	<xs:complexType>
+																		<xs:simpleContent>
+																			<xs:extension base="xs:string">
+																				<xs:attribute type="xs:string" name="first" use="optional"/>
+																				<xs:attribute type="xs:string" name="last" use="optional"/>
+																				<xs:attribute type="xs:string" name="full" use="optional"/>
+																				<xs:attribute type="xs:string" name="nickname" use="optional"/>
+																				<xs:attribute type="xs:string" name="extensive" use="optional"/>
+																			</xs:extension>
+																		</xs:simpleContent>
+																	</xs:complexType>
+																</xs:element>
+															</xs:sequence>
+															<xs:attribute type="xs:int" name="player-key" use="optional"/>
+															<xs:attribute type="xs:byte" name="uniform-number" use="optional"/>
+														</xs:complexType>
+													</xs:element>
+													<xs:element name="player-stats">
+														<xs:complexType>
+															<xs:sequence>
+																<xs:element name="rating" maxOccurs="unbounded" minOccurs="0">
+																	<xs:complexType>
+																		<xs:simpleContent>
+																			<xs:extension base="xs:string">
+																				<xs:attribute type="xs:string" name="rating-type" use="optional"/>
+																				<xs:attribute type="xs:string" name="rating-value-goalie" use="optional"/>
+																				<xs:attribute type="xs:string" name="rating-value-defenseman" use="optional"/>
+																				<xs:attribute type="xs:string" name="rating-value-mid-fielder" use="optional"/>
+																				<xs:attribute type="xs:string" name="rating-value-forward" use="optional"/>
+																				<xs:attribute type="xs:string" name="rating-value" use="optional"/>
+																			</xs:extension>
+																		</xs:simpleContent>
+																	</xs:complexType>
+																</xs:element>
+																<xs:element name="player-stats-soccer">
+																	<xs:complexType>
+																		<xs:sequence>
+																			<xs:element name="stats-soccer-defensive">
+																				<xs:complexType>
+																					<xs:simpleContent>
+																						<xs:extension base="xs:string">
+																							<xs:attribute type="xs:byte" name="saves" use="optional"/>
+																							<xs:attribute type="xs:byte" name="catches-punches-crosses" use="optional"/>
+																							<xs:attribute type="xs:byte" name="catches-punches-corners" use="optional"/>
+																							<xs:attribute type="xs:byte" name="goals-against-total" use="optional"/>
+																							<xs:attribute type="xs:byte" name="penalty-saves" use="optional"/>
+																						</xs:extension>
+																					</xs:simpleContent>
+																				</xs:complexType>
+																			</xs:element>
+																			<xs:element name="stats-soccer-offensive">
+																				<xs:complexType>
+																					<xs:simpleContent>
+																						<xs:extension base="xs:string">
+																							<xs:attribute type="xs:byte" name="shots-total" use="optional"/>
+																							<xs:attribute type="xs:byte" name="offsides" use="optional"/>
+																							<xs:attribute type="xs:byte" name="corner-kicks" use="optional"/>
+																							<xs:attribute type="xs:byte" name="crosses" use="optional"/>
+																							<xs:attribute type="xs:byte" name="assists-total" use="optional"/>
+																							<xs:attribute type="xs:byte" name="shot-assists" use="optional"/>
+																							<xs:attribute type="xs:byte" name="freekicks" use="optional"/>
+																							<xs:attribute type="xs:byte" name="miss-chance" use="optional"/>
+																							<xs:attribute type="xs:byte" name="throw-in" use="optional"/>
+																							<xs:attribute type="xs:byte" name="punt" use="optional"/>
+																							<xs:attribute type="xs:byte" name="shots-penalty-shot-scored" use="optional"/>
+																							<xs:attribute type="xs:byte" name="shots-penalty-shot-missed" use="optional"/>
+																							<xs:attribute type="xs:byte" name="dfl-assists-total" use="optional"/>
+																							<xs:attribute type="xs:byte" name="shots-total-outside-box" use="optional"/>
+																							<xs:attribute type="xs:byte" name="shots-total-inside-box" use="optional"/>
+																							<xs:attribute type="xs:byte" name="shots-foot-inside-box" use="optional"/>
+																							<xs:attribute type="xs:byte" name="shots-foot-outside-box" use="optional"/>
+																							<xs:attribute type="xs:byte" name="shots-total-header" use="optional"/>
+																						</xs:extension>
+																					</xs:simpleContent>
+																				</xs:complexType>
+																			</xs:element>
+																			<xs:element name="stats-soccer-foul">
+																				<xs:complexType>
+																					<xs:simpleContent>
+																						<xs:extension base="xs:string">
+																							<xs:attribute type="xs:byte" name="fouls-commited" use="optional"/>
+																							<xs:attribute type="xs:byte" name="fouls-suffered" use="optional"/>
+																							<xs:attribute type="xs:byte" name="yellow-red-cards" use="optional"/>
+																							<xs:attribute type="xs:byte" name="red-cards" use="optional"/>
+																							<xs:attribute type="xs:byte" name="yellow-cards" use="optional"/>
+																						</xs:extension>
+																					</xs:simpleContent>
+																				</xs:complexType>
+																			</xs:element>
+																		</xs:sequence>
+																		<xs:attribute type="xs:byte" name="duels-won" use="optional"/>
+																		<xs:attribute type="xs:byte" name="duels-won-ground" use="optional"/>
+																		<xs:attribute type="xs:byte" name="duels-won-header" use="optional"/>
+																		<xs:attribute type="xs:byte" name="duels-lost" use="optional"/>
+																		<xs:attribute type="xs:byte" name="duels-lost-ground" use="optional"/>
+																		<xs:attribute type="xs:byte" name="duels-lost-header" use="optional"/>
+																		<xs:attribute type="xs:float" name="duels-won-percentage" use="optional"/>
+																		<xs:attribute type="xs:byte" name="passes-completed" use="optional"/>
+																		<xs:attribute type="xs:byte" name="passes-failed" use="optional"/>
+																		<xs:attribute type="xs:float" name="passes-completions-percentage" use="optional"/>
+																		<xs:attribute type="xs:float" name="passes-failed-percentage" use="optional"/>
+																		<xs:attribute type="xs:byte" name="passes" use="optional"/>
+																		<xs:attribute type="xs:byte" name="balls-touched" use="optional"/>
+																		<xs:attribute type="xs:float" name="tracking-distance" use="optional"/>
+																		<xs:attribute type="xs:float" name="tracking-average-speed" use="optional"/>
+																		<xs:attribute type="xs:float" name="tracking-max-speed" use="optional"/>
+																		<xs:attribute type="xs:byte" name="tracking-sprints" use="optional"/>
+																		<xs:attribute type="xs:float" name="tracking-sprints-distance" use="optional"/>
+																		<xs:attribute type="xs:byte" name="tracking-fast-runs" use="optional"/>
+																		<xs:attribute type="xs:float" name="tracking-fast-runs-distance" use="optional"/>
+																	</xs:complexType>
+																</xs:element>
+																<xs:element name="player-stats-tracking" minOccurs="0">
+																	<xs:complexType>
+																		<xs:sequence>
+																			<xs:element name="stats-time">
+																				<xs:complexType>
+																					<xs:simpleContent>
+																						<xs:extension base="xs:string">
+																							<xs:attribute type="xs:float" name="playedTime" use="optional"/>
+																							<xs:attribute type="xs:float" name="playedTime_1HT" use="optional"/>
+																							<xs:attribute type="xs:float" name="playedTime_2HT" use="optional"/>
+																						</xs:extension>
+																					</xs:simpleContent>
+																				</xs:complexType>
+																			</xs:element>
+																			<xs:element name="stats-ball">
+																				<xs:complexType>
+																					<xs:simpleContent>
+																						<xs:extension base="xs:string">
+																							<xs:attribute type="xs:byte" name="ballTouchesTotal" use="optional"/>
+																							<xs:attribute type="xs:byte" name="ballTouch_OwnHalf" use="optional"/>
+																							<xs:attribute type="xs:byte" name="ballTouch_OpposingHalf" use="optional"/>
+																							<xs:attribute type="xs:byte" name="ballTouch_OwnPenaltyArea" use="optional"/>
+																							<xs:attribute type="xs:byte" name="ballTouch_OpposingPenaltyArea" use="optional"/>
+																							<xs:attribute type="xs:float" name="ballPossessionTime" use="optional"/>
+																							<xs:attribute type="xs:float" name="avgDistance_ToBall" use="optional"/>
+																						</xs:extension>
+																					</xs:simpleContent>
+																				</xs:complexType>
+																			</xs:element>
+																			<xs:element name="stats-passes">
+																				<xs:complexType>
+																					<xs:simpleContent>
+																						<xs:extension base="xs:string">
+																							<xs:attribute type="xs:byte" name="passesTotal" use="optional"/>
+																							<xs:attribute type="xs:byte" name="passesTotal_Completed" use="optional"/>
+																							<xs:attribute type="xs:byte" name="squarePasses" use="optional"/>
+																							<xs:attribute type="xs:byte" name="squarePasses_Completed" use="optional"/>
+																							<xs:attribute type="xs:byte" name="troughBallPasses" use="optional"/>
+																							<xs:attribute type="xs:byte" name="troughBallPasses_Completed" use="optional"/>
+																							<xs:attribute type="xs:byte" name="diagonalPasses" use="optional"/>
+																							<xs:attribute type="xs:byte" name="diagonalPasses_Completed" use="optional"/>
+																							<xs:attribute type="xs:byte" name="backPasses" use="optional"/>
+																							<xs:attribute type="xs:byte" name="backPasses_Completed" use="optional"/>
+																							<xs:attribute type="xs:byte" name="passesIntoOffensiveArea" use="optional"/>
+																							<xs:attribute type="xs:byte" name="passesIntoOffensiveArea_Completed" use="optional"/>
+																							<xs:attribute type="xs:byte" name="passes_OwnHalf" use="optional"/>
+																							<xs:attribute type="xs:byte" name="passes_OwnHalf_Completed" use="optional"/>
+																							<xs:attribute type="xs:byte" name="passes_OpposingHalf" use="optional"/>
+																							<xs:attribute type="xs:byte" name="passes_OpposingHalf_Completed" use="optional"/>
+																						</xs:extension>
+																					</xs:simpleContent>
+																				</xs:complexType>
+																			</xs:element>
+																			<xs:element name="stats-duels">
+																				<xs:complexType>
+																					<xs:simpleContent>
+																						<xs:extension base="xs:string">
+																							<xs:attribute type="xs:byte" name="duels_Defensive_OpposingHalf" use="optional"/>
+																							<xs:attribute type="xs:byte" name="duels_Defensive_OpposingHalf_Won" use="optional"/>
+																							<xs:attribute type="xs:byte" name="duels_OppoosingPenaltyArea" use="optional"/>
+																							<xs:attribute type="xs:byte" name="duels_OppoosingPenaltyArea_Won" use="optional"/>
+																							<xs:attribute type="xs:byte" name="duels_OwnPenaltyArea" use="optional"/>
+																							<xs:attribute type="xs:byte" name="duels_OwnPenaltyArea_Won" use="optional"/>
+																						</xs:extension>
+																					</xs:simpleContent>
+																				</xs:complexType>
+																			</xs:element>
+																			<xs:element name="stats-performance">
+																				<xs:complexType>
+																					<xs:simpleContent>
+																						<xs:extension base="xs:string">
+																							<xs:attribute type="xs:float" name="distance" use="optional"/>
+																							<xs:attribute type="xs:float" name="distance_1HT" use="optional"/>
+																							<xs:attribute type="xs:float" name="distance_2HT" use="optional"/>
+																							<xs:attribute type="xs:float" name="distance_Last15Minutes" use="optional"/>
+																							<xs:attribute type="xs:float" name="playedTime_Last15Minutes" use="optional"/>
+																							<xs:attribute type="xs:float" name="distance_OwnHalf" use="optional"/>
+																							<xs:attribute type="xs:float" name="distance_OwnHalf_1HT" use="optional"/>
+																							<xs:attribute type="xs:float" name="distance_OwnHalf_2HT" use="optional"/>
+																							<xs:attribute type="xs:float" name="distance_OpposingHalf" use="optional"/>
+																							<xs:attribute type="xs:float" name="distance_OpposingHalf_1HT" use="optional"/>
+																							<xs:attribute type="xs:float" name="distance_OpposingHalf_2HT" use="optional"/>
+																							<xs:attribute type="xs:float" name="distance_BallInPossesion" use="optional"/>
+																							<xs:attribute type="xs:float" name="distance_BallInPossesion_1HT" use="optional"/>
+																							<xs:attribute type="xs:float" name="distance_BallInPossesion_2HT" use="optional"/>
+																							<xs:attribute type="xs:float" name="distance_BallNotInPossesion" use="optional"/>
+																							<xs:attribute type="xs:float" name="distance_BallNotInPossesion_1HT" use="optional"/>
+																							<xs:attribute type="xs:float" name="distance_BallNotInPossesion_2HT" use="optional"/>
+																							<xs:attribute type="xs:float" name="maxSpeed" use="optional"/>
+																						</xs:extension>
+																					</xs:simpleContent>
+																				</xs:complexType>
+																			</xs:element>
+																			<xs:element name="stats-runs">
+																				<xs:complexType>
+																					<xs:simpleContent>
+																						<xs:extension base="xs:string">
+																							<xs:attribute type="xs:byte" name="sprints" use="optional"/>
+																							<xs:attribute type="xs:float" name="sprints_Distance" use="optional"/>
+																							<xs:attribute type="xs:byte" name="sprints_1HT" use="optional"/>
+																							<xs:attribute type="xs:byte" name="sprints_2HT" use="optional"/>
+																							<xs:attribute type="xs:byte" name="sprints_Forwards" use="optional"/>
+																							<xs:attribute type="xs:byte" name="sprints_Backwards" use="optional"/>
+																							<xs:attribute type="xs:byte" name="sprints_BallInPossesion" use="optional"/>
+																							<xs:attribute type="xs:byte" name="sprints_BallNotInPossesion" use="optional"/>
+																							<xs:attribute type="xs:byte" name="fastRuns" use="optional"/>
+																							<xs:attribute type="xs:float" name="fastRuns_Distance" use="optional"/>
+																							<xs:attribute type="xs:byte" name="fastRuns_1HT" use="optional"/>
+																							<xs:attribute type="xs:byte" name="fastRuns_2HT" use="optional"/>
+																							<xs:attribute type="xs:byte" name="fastRuns_Forwards" use="optional"/>
+																							<xs:attribute type="xs:byte" name="fastRuns_Backwards" use="optional"/>
+																							<xs:attribute type="xs:byte" name="fastRuns_BallInPossesion" use="optional"/>
+																							<xs:attribute type="xs:byte" name="fastRuns_BallNotInPossesion" use="optional"/>
+																							<xs:attribute type="xs:byte" name="offensiveRuns" use="optional"/>
+																							<xs:attribute type="xs:float" name="offensiveRuns_Distance" use="optional"/>
+																							<xs:attribute type="xs:byte" name="offensiveRuns_1HT" use="optional"/>
+																							<xs:attribute type="xs:byte" name="offensiveRuns_2HT" use="optional"/>
+																						</xs:extension>
+																					</xs:simpleContent>
+																				</xs:complexType>
+																			</xs:element>
+																			<xs:element name="stats-goalkeeper">
+																				<xs:complexType>
+																					<xs:simpleContent>
+																						<xs:extension base="xs:string">
+																							<xs:attribute type="xs:float" name="avgDistance_Goalkeeper_EndLine" use="optional"/>
+																							<xs:attribute type="xs:float" name="avgDistance_Goalkeeper_EndLine_AtSaves" use="optional"/>
+																						</xs:extension>
+																					</xs:simpleContent>
+																				</xs:complexType>
+																			</xs:element>
+																		</xs:sequence>
+																	</xs:complexType>
+																</xs:element>
+															</xs:sequence>
+															<xs:attribute type="xs:string" name="stats-coverage" use="optional"/>
+															<xs:attribute type="xs:string" name="date-coverage-type" use="optional"/>
+															<xs:attribute type="xs:byte" name="score" use="optional"/>
+														</xs:complexType>
+													</xs:element>
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

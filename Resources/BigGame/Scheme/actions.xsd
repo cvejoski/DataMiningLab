@@ -1,0 +1,457 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="sports-content">
+		<xs:annotation>
+			<xs:documentation>Copyright (c) 2003 - 2011 proFILE Computersysteme GmbH.
+				All Rights Reserved.
+				proFILE MAKES NO REPRESENTATIONS OR WARRANTIES ABOUT THE SUITABILITY OF
+				THE SOFTWARE, EITHER EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE
+				IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE,
+				OR NON-INFRINGEMENT. proFILE SHALL NOT BE LIABLE FOR ANY DAMAGES SUFFERED
+				BY LICENSEE AS A RESULT OF USING, MODIFYING OR DISTRIBUTING THIS SOFTWARE
+				OR ITS DERIVATIVES.</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="sports-metadata">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element type="xs:string" name="sports-title"/>
+							<xs:element name="sports-content-codes">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="sports-content-code" maxOccurs="unbounded" minOccurs="0">
+											<xs:complexType>
+												<xs:simpleContent>
+													<xs:extension base="xs:string">
+														<xs:attribute type="xs:string" name="code-type" use="optional"/>
+														<xs:attribute type="xs:string" name="code-key" use="optional"/>
+														<xs:attribute type="xs:string" name="code-source" use="optional"/>
+														<xs:attribute type="xs:string" name="code-name" use="optional"/>
+													</xs:extension>
+												</xs:simpleContent>
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+						<xs:attribute type="xs:string" name="date-time"/>
+						<xs:attribute type="xs:string" name="doc-id"/>
+						<xs:attribute type="xs:string" name="language"/>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="tournament">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="tournament-metadata">
+								<xs:complexType>
+									<xs:simpleContent>
+										<xs:extension base="xs:string">
+											<xs:attribute type="xs:string" name="tournament-name"/>
+											<xs:attribute type="xs:byte" name="tournament-key"/>
+											<xs:attribute type="xs:string" name="tournament-source"/>
+											<xs:attribute type="xs:string" name="date-coverage-type"/>
+											<xs:attribute type="xs:string" name="date-coverage-value"/>
+										</xs:extension>
+									</xs:simpleContent>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="tournament-division">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="tournament-division-metadata">
+											<xs:complexType>
+												<xs:simpleContent>
+													<xs:extension base="xs:string">
+														<xs:attribute type="xs:string" name="division-name"/>
+														<xs:attribute type="xs:byte" name="division-key"/>
+														<xs:attribute type="xs:string" name="division-source"/>
+													</xs:extension>
+												</xs:simpleContent>
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="tournament-round">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="sports-event">
+														<xs:complexType>
+															<xs:sequence>
+																<xs:element name="event-metadata">
+																	<xs:complexType>
+																		<xs:sequence>
+																			<xs:element name="event-metadata-soccer">
+																				<xs:complexType>
+																					<xs:sequence>
+																						<xs:element name="time-adjustment">
+																							<xs:complexType>
+																								<xs:simpleContent>
+																									<xs:extension base="xs:string">
+																										<xs:attribute type="xs:short" name="period-extra-time-elapsed"/>
+																									</xs:extension>
+																								</xs:simpleContent>
+																							</xs:complexType>
+																						</xs:element>
+																					</xs:sequence>
+																					<xs:attribute type="xs:byte" name="period-value"/>
+																					<xs:attribute type="xs:byte" name="minutes-elapsed"/>
+																					<xs:attribute type="xs:byte" name="period-minute-elapsed"/>
+																				</xs:complexType>
+																			</xs:element>
+																		</xs:sequence>
+																		<xs:attribute type="xs:string" name="id"/>
+																		<xs:attribute type="xs:int" name="event-key"/>
+																		<xs:attribute type="xs:string" name="event-status"/>
+																		<xs:attribute type="xs:string" name="start-date-time"/>
+																		<xs:attribute type="xs:string" name="start-weekday"/>
+																		<xs:attribute type="xs:byte" name="heat-number"/>
+																		<xs:attribute type="xs:string" name="date-coverage-type"/>
+																		<xs:attribute type="xs:string" name="date-coverage-value"/>
+																		<xs:attribute type="xs:int" name="site-attendance"/>
+																		<xs:attribute type="xs:byte" name="live-period"/>
+																		<xs:attribute type="xs:byte" name="has-overtime"/>
+																		<xs:attribute type="xs:byte" name="has-overtime2"/>
+																		<xs:attribute type="xs:byte" name="has-penalty-shootout"/>
+																	</xs:complexType>
+																</xs:element>
+																<xs:element name="team" maxOccurs="unbounded" minOccurs="0">
+																	<xs:complexType>
+																		<xs:sequence>
+																			<xs:element name="team-metadata">
+																				<xs:complexType>
+																					<xs:sequence>
+																						<xs:element name="name">
+																							<xs:complexType>
+																								<xs:simpleContent>
+																									<xs:extension base="xs:string">
+																										<xs:attribute type="xs:string" name="full" use="optional"/>
+																										<xs:attribute type="xs:string" name="nickname" use="optional"/>
+																									</xs:extension>
+																								</xs:simpleContent>
+																							</xs:complexType>
+																						</xs:element>
+																					</xs:sequence>
+																					<xs:attribute type="xs:string" name="id" use="optional"/>
+																					<xs:attribute type="xs:byte" name="team-key" use="optional"/>
+																					<xs:attribute type="xs:string" name="alignment" use="optional"/>
+																					<xs:attribute type="xs:string" name="uniform-color-name" use="optional"/>
+																					<xs:attribute type="xs:string" name="uniform-color-hex" use="optional"/>
+																				</xs:complexType>
+																			</xs:element>
+																			<xs:element name="team-stats">
+																				<xs:complexType>
+																					<xs:sequence>
+																						<xs:element name="sub-score" maxOccurs="unbounded" minOccurs="0">
+																							<xs:complexType>
+																								<xs:simpleContent>
+																									<xs:extension base="xs:string">
+																										<xs:attribute type="xs:string" name="period-value" use="optional"/>
+																										<xs:attribute type="xs:byte" name="score" use="optional"/>
+																									</xs:extension>
+																								</xs:simpleContent>
+																							</xs:complexType>
+																						</xs:element>
+																					</xs:sequence>
+																					<xs:attribute type="xs:byte" name="score" use="optional"/>
+																				</xs:complexType>
+																			</xs:element>
+																			<xs:element name="player" maxOccurs="unbounded" minOccurs="0">
+																				<xs:complexType>
+																					<xs:sequence>
+																						<xs:element name="player-metadata">
+																							<xs:complexType>
+																								<xs:sequence>
+																									<xs:element name="name">
+																										<xs:complexType>
+																											<xs:simpleContent>
+																												<xs:extension base="xs:string">
+																													<xs:attribute type="xs:string" name="full" use="optional"/>
+																													<xs:attribute type="xs:string" name="nickname" use="optional"/>
+																													<xs:attribute type="xs:string" name="last" use="optional"/>
+																												</xs:extension>
+																											</xs:simpleContent>
+																										</xs:complexType>
+																									</xs:element>
+																								</xs:sequence>
+																								<xs:attribute type="xs:string" name="id" use="optional"/>
+																								<xs:attribute type="xs:int" name="player-key" use="optional"/>
+																								<xs:attribute type="xs:string" name="position-regular" use="optional"/>
+																								<xs:attribute type="xs:string" name="position-event" use="optional"/>
+																								<xs:attribute type="xs:string" name="status" use="optional"/>
+																								<xs:attribute type="xs:byte" name="uniform-number" use="optional"/>
+																								<xs:attribute type="xs:float" name="vis-x" use="optional"/>
+																								<xs:attribute type="xs:float" name="vis-y" use="optional"/>
+																							</xs:complexType>
+																						</xs:element>
+																					</xs:sequence>
+																				</xs:complexType>
+																			</xs:element>
+																			<xs:element name="associate">
+																				<xs:complexType>
+																					<xs:sequence>
+																						<xs:element name="associate-metadata">
+																							<xs:complexType>
+																								<xs:sequence>
+																									<xs:element name="name">
+																										<xs:complexType>
+																											<xs:simpleContent>
+																												<xs:extension base="xs:string">
+																													<xs:attribute type="xs:string" name="full" use="optional"/>
+																													<xs:attribute type="xs:string" name="nickname" use="optional"/>
+																												</xs:extension>
+																											</xs:simpleContent>
+																										</xs:complexType>
+																									</xs:element>
+																								</xs:sequence>
+																								<xs:attribute type="xs:string" name="id" use="optional"/>
+																								<xs:attribute type="xs:short" name="associate-metadata-key" use="optional"/>
+																								<xs:attribute type="xs:string" name="position" use="optional"/>
+																							</xs:complexType>
+																						</xs:element>
+																					</xs:sequence>
+																				</xs:complexType>
+																			</xs:element>
+																		</xs:sequence>
+																	</xs:complexType>
+																</xs:element>
+																<xs:element name="officials">
+																	<xs:complexType>
+																		<xs:sequence>
+																			<xs:element name="official">
+																				<xs:complexType>
+																					<xs:sequence>
+																						<xs:element name="official-metadata">
+																							<xs:complexType>
+																								<xs:sequence>
+																									<xs:element name="name">
+																										<xs:complexType>
+																											<xs:simpleContent>
+																												<xs:extension base="xs:string">
+																													<xs:attribute type="xs:string" name="full"/>
+																													<xs:attribute type="xs:string" name="nickname"/>
+																													<xs:attribute type="xs:string" name="city"/>
+																												</xs:extension>
+																											</xs:simpleContent>
+																										</xs:complexType>
+																									</xs:element>
+																								</xs:sequence>
+																								<xs:attribute type="xs:string" name="official-key"/>
+																								<xs:attribute type="xs:string" name="position"/>
+																							</xs:complexType>
+																						</xs:element>
+																					</xs:sequence>
+																				</xs:complexType>
+																			</xs:element>
+																		</xs:sequence>
+																	</xs:complexType>
+																</xs:element>
+																<xs:element name="event-actions">
+																	<xs:complexType>
+																		<xs:sequence>
+																			<xs:element name="event-actions-soccer">
+																				<xs:complexType>
+																					<xs:choice maxOccurs="unbounded" minOccurs="0">
+																						<xs:element name="action-soccer-other" maxOccurs="unbounded" minOccurs="0">
+																							<xs:complexType>
+																								<xs:sequence>
+																									<xs:element name="info" maxOccurs="unbounded" minOccurs="0">
+																										<xs:complexType>
+																											<xs:simpleContent>
+																												<xs:extension base="xs:string">
+																													<xs:attribute type="xs:int" name="nr"/>
+																													<xs:attribute type="xs:double" name="x"/>
+																													<xs:attribute type="xs:double" name="y"/>
+																												</xs:extension>
+																											</xs:simpleContent>
+																										</xs:complexType>
+																									</xs:element>																				
+																								</xs:sequence>
+																								<xs:attribute type="xs:string" name="action-type" use="optional"/>
+																								<xs:attribute type="xs:string" name="freekick-type" use="optional"/>
+																								<xs:attribute type="xs:string" name="freekick-result" use="optional"/>
+																								<xs:attribute type="xs:string" name="throwin-type" use="optional"/>
+																								<xs:attribute type="xs:string" name="pass-type" use="optional"/>
+																								<xs:attribute type="xs:string" name="pass-result" use="optional"/>
+																								<xs:attribute type="xs:string" name="throwin-result" use="optional"/>
+																								<xs:attribute type="xs:byte" name="period-value" use="optional"/>
+																								<xs:attribute type="xs:time" name="timestamp" use="optional"/>
+																								<xs:attribute type="xs:short" name="id" use="optional"/>
+																								<xs:attribute type="xs:string" name="action-side" use="optional"/>
+																								<xs:attribute type="xs:string" name="team-idref" use="optional"/>
+																								<xs:attribute type="xs:string" name="player-idref" use="optional"/>
+																								<xs:attribute type="xs:string" name="second-player-idref" use="optional"/>
+																								<xs:attribute type="xs:string" name="corner-kick-result" use="optional"/>
+																								<xs:attribute type="xs:byte" name="minutes-elapsed" use="optional"/>
+																								<xs:attribute type="xs:string" name="x1" use="optional"/>
+																								<xs:attribute type="xs:string" name="y1" use="optional"/>
+																								<xs:attribute type="xs:string" name="x2" use="optional"/>
+																								<xs:attribute type="xs:string" name="y2" use="optional"/>
+																								<xs:attribute type="xs:string" name="first-player-idref" use="optional"/>
+																								<xs:attribute type="xs:string" name="first-team-idref" use="optional"/>
+																								<xs:attribute type="xs:string" name="second-team-idref" use="optional"/>
+																								<xs:attribute type="xs:string" name="tackle-type" use="optional"/>
+																								<xs:attribute type="xs:string" name="tackle-description" use="optional"/>
+																								<xs:attribute type="xs:string" name="tackle-dribblings" use="optional"/>
+																								<xs:attribute type="xs:string" name="tackle-result" use="optional"/>
+																								<xs:attribute type="xs:string" name="cross-result" use="optional"/>
+																								<xs:attribute type="xs:string" name="direction" use="optional"/>
+																								<xs:attribute type="xs:double" name="time" use="optional"/>
+																								<xs:attribute type="xs:double" name="distance" use="optional"/>
+																								<xs:attribute type="xs:double" name="max-speed" use="optional"/>
+																							</xs:complexType>
+																						</xs:element>
+																						<xs:element name="action-soccer-score-attempt" maxOccurs="unbounded" minOccurs="0">
+																							<xs:complexType>
+																								<xs:sequence>
+																									<xs:element name="action-soccer-assisting-player">
+																										<xs:complexType>
+																											<xs:simpleContent>
+																												<xs:extension base="xs:string">
+																													<xs:attribute type="xs:string" name="player-idref" use="optional"/>
+																												</xs:extension>
+																											</xs:simpleContent>
+																										</xs:complexType>
+																									</xs:element>
+																								</xs:sequence>
+																								<xs:attribute type="xs:short" name="id" use="optional"/>
+																								<xs:attribute type="xs:string" name="team-idref" use="optional"/>
+																								<xs:attribute type="xs:string" name="player-idref" use="optional"/>
+																								<xs:attribute type="xs:string" name="second-player-idref" use="optional"/>
+																								<xs:attribute type="xs:string" name="score-attempt-method" use="optional"/>
+																								<xs:attribute type="xs:string" name="score-attempt-type" use="optional"/>
+																								<xs:attribute type="xs:string" name="score-attempt-result" use="optional"/>
+																								<xs:attribute type="xs:string" name="score-attempt-position" use="optional"/>
+																								<xs:attribute type="xs:string" name="score-attempt-counterattack" use="optional"/>
+																								<xs:attribute type="xs:string" name="score-attempt-quality" use="optional"/>
+																								<xs:attribute type="xs:byte" name="period-value" use="optional"/>
+																								<xs:attribute type="xs:byte" name="minutes-elapsed" use="optional"/>
+																								<xs:attribute type="xs:time" name="timestamp" use="optional"/>
+																								<xs:attribute type="xs:float" name="x1" use="optional"/>
+																								<xs:attribute type="xs:float" name="y1" use="optional"/>
+																								<xs:attribute type="xs:string" name="x2" use="optional"/>
+																								<xs:attribute type="xs:string" name="y2" use="optional"/>
+																							</xs:complexType>
+																						</xs:element>
+																						<xs:element name="action-soccer-score" maxOccurs="unbounded" minOccurs="0">
+																							<xs:complexType mixed="true">
+																								<xs:sequence>
+																									<xs:element name="action-soccer-assisting-player" minOccurs="0">
+																										<xs:complexType>
+																											<xs:simpleContent>
+																												<xs:extension base="xs:string">
+																													<xs:attribute type="xs:string" name="player-idref" use="optional"/>
+																												</xs:extension>
+																											</xs:simpleContent>
+																										</xs:complexType>
+																									</xs:element>
+																								</xs:sequence>
+																								<xs:attribute type="xs:short" name="id" use="optional"/>
+																								<xs:attribute type="xs:string" name="team-idref" use="optional"/>
+																								<xs:attribute type="xs:string" name="player-idref" use="optional"/>
+																								<xs:attribute type="xs:string" name="score-team" use="optional"/>
+																								<xs:attribute type="xs:string" name="score-team-opposing" use="optional"/>
+																								<xs:attribute type="xs:string" name="score-attempt-method" use="optional"/>
+																								<xs:attribute type="xs:string" name="score-attempt-type" use="optional"/>
+																								<xs:attribute type="xs:string" name="score-type" use="optional"/>
+																								<xs:attribute type="xs:string" name="score-attempt-position" use="optional"/>
+																								<xs:attribute type="xs:string" name="score-attempt-counterattack" use="optional"/>
+																								<xs:attribute type="xs:string" name="score-attempt-quality" use="optional"/>
+																								<xs:attribute type="xs:byte" name="period-value" use="optional"/>
+																								<xs:attribute type="xs:byte" name="minutes-elapsed" use="optional"/>
+																								<xs:attribute type="xs:time" name="timestamp" use="optional"/>
+																								<xs:attribute type="xs:float" name="x1" use="optional"/>
+																								<xs:attribute type="xs:float" name="y1" use="optional"/>
+																								<xs:attribute type="xs:float" name="x2" use="optional"/>
+																								<xs:attribute type="xs:float" name="y2" use="optional"/>
+																								<xs:attribute type="xs:string" name="action-type" use="optional"/>
+																								<xs:attribute type="xs:string" name="freekick-type" use="optional"/>
+																								<xs:attribute type="xs:string" name="second-player-idref" use="optional"/>
+																								<xs:attribute type="xs:string" name="freekick-result" use="optional"/>
+																							</xs:complexType>
+																						</xs:element>
+																						<xs:element name="action-soccer-foul" maxOccurs="unbounded" minOccurs="0">
+																							<xs:complexType>
+																								<xs:simpleContent>
+																									<xs:extension base="xs:string">
+																										<xs:attribute type="xs:string" name="fouled-team-idref" use="optional"/>
+																										<xs:attribute type="xs:short" name="id" use="optional"/>
+																										<xs:attribute type="xs:string" name="fouled-player-idref" use="optional"/>
+																										<xs:attribute type="xs:string" name="fouling-team-idref" use="optional"/>
+																										<xs:attribute type="xs:string" name="fouling-player-idref" use="optional"/>
+																										<xs:attribute type="xs:byte" name="period-value" use="optional"/>
+																										<xs:attribute type="xs:byte" name="minutes-elapsed" use="optional"/>
+																										<xs:attribute type="xs:time" name="timestamp" use="optional"/>
+																										<xs:attribute type="xs:float" name="x1" use="optional"/>
+																										<xs:attribute type="xs:float" name="y1" use="optional"/>
+																										<xs:attribute type="xs:string" name="x2" use="optional"/>
+																										<xs:attribute type="xs:string" name="y2" use="optional"/>
+																									</xs:extension>
+																								</xs:simpleContent>
+																							</xs:complexType>
+																						</xs:element>
+																						<xs:element name="action-soccer-penalty" maxOccurs="unbounded" minOccurs="0">
+																							<xs:complexType>
+																								<xs:simpleContent>
+																									<xs:extension base="xs:string">
+																										<xs:attribute type="xs:string" name="team-idref" use="optional"/>
+																										<xs:attribute type="xs:short" name="id" use="optional"/>
+																										<xs:attribute type="xs:string" name="recipient-idref" use="optional"/>
+																										<xs:attribute type="xs:string" name="recipient-type" use="optional"/>
+																										<xs:attribute type="xs:string" name="penalty-level" use="optional"/>
+																										<xs:attribute type="xs:byte" name="period-value" use="optional"/>
+																										<xs:attribute type="xs:byte" name="minutes-elapsed" use="optional"/>
+																										<xs:attribute type="xs:time" name="timestamp" use="optional"/>
+																										<xs:attribute type="xs:string" name="x1" use="optional"/>
+																										<xs:attribute type="xs:string" name="y1" use="optional"/>
+																										<xs:attribute type="xs:string" name="x2" use="optional"/>
+																										<xs:attribute type="xs:string" name="y2" use="optional"/>
+																									</xs:extension>
+																								</xs:simpleContent>
+																							</xs:complexType>
+																						</xs:element>
+																						<xs:element name="action-soccer-offside" maxOccurs="unbounded" minOccurs="0">
+																							<xs:complexType>
+																								<xs:simpleContent>
+																									<xs:extension base="xs:string">
+																										<xs:attribute type="xs:string" name="team-idref" use="optional"/>
+																										<xs:attribute type="xs:short" name="id" use="optional"/>
+																										<xs:attribute type="xs:string" name="player-offside-idref" use="optional"/>
+																										<xs:attribute type="xs:string" name="player-passing-idref" use="optional"/>
+																										<xs:attribute type="xs:byte" name="period-value" use="optional"/>
+																										<xs:attribute type="xs:byte" name="minutes-elapsed" use="optional"/>
+																										<xs:attribute type="xs:time" name="timestamp" use="optional"/>
+																										<xs:attribute type="xs:string" name="x1" use="optional"/>
+																										<xs:attribute type="xs:string" name="y1" use="optional"/>
+																										<xs:attribute type="xs:string" name="x2" use="optional"/>
+																										<xs:attribute type="xs:string" name="y2" use="optional"/>
+																										<xs:attribute type="xs:string" name="action-type" use="optional"/>
+																										<xs:attribute type="xs:string" name="player-idref" use="optional"/>
+																									</xs:extension>
+																								</xs:simpleContent>
+																							</xs:complexType>
+																						</xs:element>
+																					</xs:choice>
+																				</xs:complexType>
+																			</xs:element>
+																		</xs:sequence>
+																	</xs:complexType>
+																</xs:element>
+															</xs:sequence>
+														</xs:complexType>
+													</xs:element>
+												</xs:sequence>
+												<xs:attribute type="xs:byte" name="round-number"/>
+												<xs:attribute type="xs:string" name="round-name"/>
+												<xs:attribute type="xs:byte" name="round-key"/>
+												<xs:attribute type="xs:string" name="round-source"/>
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

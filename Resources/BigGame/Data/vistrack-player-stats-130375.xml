@@ -1,0 +1,824 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sports-content SYSTEM "../specification/dtd/sportsml-core.dtd">
+
+<!--
+    Copyright (c) 2003 - 2011 proFILE Computersysteme GmbH.
+    All Rights Reserved.
+    proFILE MAKES NO REPRESENTATIONS OR WARRANTIES ABOUT THE SUITABILITY OF
+    THE SOFTWARE, EITHER EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE
+    IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE,
+    OR NON-INFRINGEMENT. proFILE SHALL NOT BE LIABLE FOR ANY DAMAGES SUFFERED
+    BY LICENSEE AS A RESULT OF USING, MODIFYING OR DISTRIBUTING THIS SOFTWARE
+    OR ITS DERIVATIVES.
+-->
+<sports-content>
+  <sports-metadata date-time="20111218T000000+0100" doc-id="sports_event_" publisher="impire" language="en_EN" document-class="player-statistics">
+    <sports-title>player-statistics-130375</sports-title>
+  </sports-metadata>
+  <sports-event>
+    <event-metadata id="E_130375" event-key="130375" event-status="post-event" start-date-time="20111218T153000+0100" start-weekday="sunday" heat-number="17" site-attendance="36019" />
+    <team>
+      <team-metadata id="O_9" team-key="9">
+        <name full="1.FC Kaiserslautern" nickname="K'lautern" />
+      </team-metadata>
+      <player>
+        <player-metadata player-key="37876" uniform-number="29">
+          <name first="Kevin" last="Trapp" full="Kevin Trapp" nickname="K. Trapp" extensive="Kevin Trapp" />
+        </player-metadata>
+        <player-stats stats-coverage="standard" date-coverage-type="event" score="0">
+          <rating rating-type="standard" rating-value-goalie="5.2" rating-value-defenseman="4.8" rating-value-mid-fielder="4.6" rating-value-forward="4.2" />
+          <rating rating-type="grade" rating-value="3.4" />
+          <rating rating-type="index" rating-value-goalie="5.2" rating-value-defenseman="3.5" rating-value-mid-fielder="2.0" rating-value-forward="1.3" />
+          <player-stats-soccer duels-won="0" duels-won-ground="0" duels-won-header="0" duels-lost="0" duels-lost-ground="0" duels-lost-header="0" duels-won-percentage="0" passes-completed="11" passes-failed="9" passes-completions-percentage="55" passes-failed-percentage="45" passes="20" balls-touched="35" tracking-distance="6325.41" tracking-average-speed="4.104" tracking-max-speed="25.776" tracking-sprints="0" tracking-sprints-distance="0.00" tracking-fast-runs="8" tracking-fast-runs-distance="72.83">
+            <stats-soccer-defensive saves="0" catches-punches-crosses="1" catches-punches-corners="0" goals-against-total="1" penalty-saves="0" />
+            <stats-soccer-offensive shots-total="0" offsides="0" corner-kicks="0" crosses="0" assists-total="0" shot-assists="0" freekicks="3" miss-chance="0" throw-in="0" punt="3" shots-penalty-shot-scored="0" shots-penalty-shot-missed="0" dfl-assists-total="0" shots-total-outside-box="0" shots-total-inside-box="0" shots-foot-inside-box="0" shots-foot-outside-box="0" shots-total-header="0" />
+            <stats-soccer-foul fouls-commited="0" fouls-suffered="1" yellow-red-cards="0" red-cards="0" yellow-cards="0" />
+          </player-stats-soccer>
+          <player-stats-tracking>
+            <stats-time playedTime="5542.76" playedTime_1HT="2753.92" playedTime_2HT="2788.84" />
+            <stats-ball ballTouchesTotal="35" ballTouch_OwnHalf="35" ballTouch_OpposingHalf="0" ballTouch_OwnPenaltyArea="23" ballTouch_OpposingPenaltyArea="0" ballPossessionTime="0.0" avgDistance_ToBall="48.33" />
+            <stats-passes passesTotal="20" passesTotal_Completed="11" squarePasses="0" squarePasses_Completed="0" troughBallPasses="10" troughBallPasses_Completed="2" diagonalPasses="7" diagonalPasses_Completed="6" backPasses="0" backPasses_Completed="0" passesIntoOffensiveArea="0" passesIntoOffensiveArea_Completed="0" passes_OwnHalf="20" passes_OwnHalf_Completed="11" passes_OpposingHalf="0" passes_OpposingHalf_Completed="0" />
+            <stats-duels duels_Defensive_OpposingHalf="0" duels_Defensive_OpposingHalf_Won="0" duels_OppoosingPenaltyArea="0" duels_OppoosingPenaltyArea_Won="0" duels_OwnPenaltyArea="0" duels_OwnPenaltyArea_Won="0" />
+            <stats-performance distance="6325.41" distance_1HT="3028.91" distance_2HT="3296.51" distance_Last15Minutes="1083.77" playedTime_Last15Minutes="988.8" distance_OwnHalf="6325.41" distance_OwnHalf_1HT="3028.91" distance_OwnHalf_2HT="3296.51" distance_OpposingHalf="0.0" distance_OpposingHalf_1HT="0.0" distance_OpposingHalf_2HT="0.0" distance_BallInPossesion="3640.56" distance_BallInPossesion_1HT="1861.3" distance_BallInPossesion_2HT="1779.26" distance_BallNotInPossesion="2683.23" distance_BallNotInPossesion_1HT="1167.25" distance_BallNotInPossesion_2HT="1515.98" maxSpeed="7.16" />
+            <stats-runs sprints="0" sprints_Distance="0.0" sprints_1HT="0" sprints_2HT="0" sprints_Forwards="0" sprints_Backwards="0" sprints_BallInPossesion="0" sprints_BallNotInPossesion="0" fastRuns="8" fastRuns_Distance="76.57" fastRuns_1HT="2" fastRuns_2HT="6" fastRuns_Forwards="3" fastRuns_Backwards="5" fastRuns_BallInPossesion="3" fastRuns_BallNotInPossesion="5" offensiveRuns="0" offensiveRuns_Distance="0.0" offensiveRuns_1HT="0" offensiveRuns_2HT="0" />
+            <stats-goalkeeper avgDistance_Goalkeeper_EndLine="16.11" avgDistance_Goalkeeper_EndLine_AtSaves="0.0" />
+          </player-stats-tracking>
+        </player-stats>
+      </player>
+      <player>
+        <player-metadata player-key="38256" uniform-number="20">
+          <name first="" last="Rodnei" full="Rodnei" nickname="Rodnei" extensive="Rodnei Francisco de Lima" />
+        </player-metadata>
+        <player-stats stats-coverage="standard" date-coverage-type="event" score="0">
+          <rating rating-type="standard" rating-value-goalie="6.2" rating-value-defenseman="7.8" rating-value-mid-fielder="7.5" rating-value-forward="5.8" />
+          <rating rating-type="grade" rating-value="2.1" />
+          <rating rating-type="index" rating-value-goalie="6.2" rating-value-defenseman="7.7" rating-value-mid-fielder="7.1" rating-value-forward="5.3" />
+          <player-stats-soccer duels-won="14" duels-won-ground="2" duels-won-header="12" duels-lost="3" duels-lost-ground="1" duels-lost-header="2" duels-won-percentage="82.35" passes-completed="46" passes-failed="8" passes-completions-percentage="85.19" passes-failed-percentage="14.81" passes="54" balls-touched="81" tracking-distance="10366.76" tracking-average-speed="6.732" tracking-max-speed="30.816" tracking-sprints="8" tracking-sprints-distance="121.22" tracking-fast-runs="42" tracking-fast-runs-distance="498.63">
+            <stats-soccer-defensive saves="0" catches-punches-crosses="0" catches-punches-corners="0" goals-against-total="1" penalty-saves="0" />
+            <stats-soccer-offensive shots-total="2" offsides="0" corner-kicks="0" crosses="0" assists-total="0" shot-assists="0" freekicks="2" miss-chance="0" throw-in="1" punt="0" shots-penalty-shot-scored="0" shots-penalty-shot-missed="0" dfl-assists-total="0" shots-total-outside-box="0" shots-total-inside-box="2" shots-foot-inside-box="0" shots-foot-outside-box="0" shots-total-header="2" />
+            <stats-soccer-foul fouls-commited="0" fouls-suffered="0" yellow-red-cards="0" red-cards="0" yellow-cards="0" />
+          </player-stats-soccer>
+          <player-stats-tracking>
+            <stats-time playedTime="5542.76" playedTime_1HT="2753.92" playedTime_2HT="2788.84" />
+            <stats-ball ballTouchesTotal="81" ballTouch_OwnHalf="74" ballTouch_OpposingHalf="7" ballTouch_OwnPenaltyArea="4" ballTouch_OpposingPenaltyArea="3" ballPossessionTime="0.0" avgDistance_ToBall="29.1" />
+            <stats-passes passesTotal="54" passesTotal_Completed="46" squarePasses="18" squarePasses_Completed="17" troughBallPasses="12" troughBallPasses_Completed="8" diagonalPasses="12" diagonalPasses_Completed="12" backPasses="8" backPasses_Completed="8" passesIntoOffensiveArea="0" passesIntoOffensiveArea_Completed="0" passes_OwnHalf="50" passes_OwnHalf_Completed="43" passes_OpposingHalf="4" passes_OpposingHalf_Completed="3" />
+            <stats-duels duels_Defensive_OpposingHalf="0" duels_Defensive_OpposingHalf_Won="0" duels_OppoosingPenaltyArea="3" duels_OppoosingPenaltyArea_Won="2" duels_OwnPenaltyArea="2" duels_OwnPenaltyArea_Won="2" />
+            <stats-performance distance="10366.76" distance_1HT="5133.0" distance_2HT="5233.76" distance_Last15Minutes="1837.93" playedTime_Last15Minutes="988.8" distance_OwnHalf="8498.6" distance_OwnHalf_1HT="4240.68" distance_OwnHalf_2HT="4257.93" distance_OpposingHalf="1868.15" distance_OpposingHalf_1HT="892.32" distance_OpposingHalf_2HT="975.83" distance_BallInPossesion="5865.76" distance_BallInPossesion_1HT="3058.9" distance_BallInPossesion_2HT="2806.86" distance_BallNotInPossesion="4499.88" distance_BallNotInPossesion_1HT="2073.96" distance_BallNotInPossesion_2HT="2425.92" maxSpeed="8.56" />
+            <stats-runs sprints="8" sprints_Distance="123.04" sprints_1HT="6" sprints_2HT="2" sprints_Forwards="0" sprints_Backwards="8" sprints_BallInPossesion="5" sprints_BallNotInPossesion="3" fastRuns="42" fastRuns_Distance="510.19" fastRuns_1HT="22" fastRuns_2HT="20" fastRuns_Forwards="15" fastRuns_Backwards="27" fastRuns_BallInPossesion="17" fastRuns_BallNotInPossesion="25" offensiveRuns="12" offensiveRuns_Distance="577.86" offensiveRuns_1HT="5" offensiveRuns_2HT="7" />
+            <stats-goalkeeper avgDistance_Goalkeeper_EndLine="39.98" avgDistance_Goalkeeper_EndLine_AtSaves="0.0" />
+          </player-stats-tracking>
+        </player-stats>
+      </player>
+      <player>
+        <player-metadata player-key="12414" uniform-number="17">
+          <name first="Alexander" last="Bugera" full="Alexander Bugera" nickname="A. Bugera" extensive="Alexander Bugera" />
+        </player-metadata>
+        <player-stats stats-coverage="standard" date-coverage-type="event" score="0">
+          <rating rating-type="standard" rating-value-goalie="6.2" rating-value-defenseman="6.6" rating-value-mid-fielder="7.3" rating-value-forward="6.7" />
+          <rating rating-type="grade" rating-value="2.7" />
+          <rating rating-type="index" rating-value-goalie="6.2" rating-value-defenseman="6.8" rating-value-mid-fielder="7.2" rating-value-forward="6.8" />
+          <player-stats-soccer duels-won="9" duels-won-ground="4" duels-won-header="5" duels-lost="8" duels-lost-ground="6" duels-lost-header="2" duels-won-percentage="52.94" passes-completed="37" passes-failed="11" passes-completions-percentage="77.08" passes-failed-percentage="22.92" passes="48" balls-touched="83" tracking-distance="10936.36" tracking-average-speed="7.092" tracking-max-speed="31.104" tracking-sprints="15" tracking-sprints-distance="289.72" tracking-fast-runs="24" tracking-fast-runs-distance="278.30">
+            <stats-soccer-defensive saves="0" catches-punches-crosses="0" catches-punches-corners="0" goals-against-total="1" penalty-saves="0" />
+            <stats-soccer-offensive shots-total="2" offsides="0" corner-kicks="3" crosses="1" assists-total="0" shot-assists="5" freekicks="2" miss-chance="0" throw-in="13" punt="0" shots-penalty-shot-scored="0" shots-penalty-shot-missed="0" dfl-assists-total="0" shots-total-outside-box="1" shots-total-inside-box="1" shots-foot-inside-box="1" shots-foot-outside-box="1" shots-total-header="0" />
+            <stats-soccer-foul fouls-commited="2" fouls-suffered="0" yellow-red-cards="0" red-cards="0" yellow-cards="0" />
+          </player-stats-soccer>
+          <player-stats-tracking>
+            <stats-time playedTime="5542.76" playedTime_1HT="2753.92" playedTime_2HT="2788.84" />
+            <stats-ball ballTouchesTotal="83" ballTouch_OwnHalf="45" ballTouch_OpposingHalf="38" ballTouch_OwnPenaltyArea="2" ballTouch_OpposingPenaltyArea="1" ballPossessionTime="0.0" avgDistance_ToBall="29.42" />
+            <stats-passes passesTotal="48" passesTotal_Completed="37" squarePasses="10" squarePasses_Completed="8" troughBallPasses="10" troughBallPasses_Completed="6" diagonalPasses="14" diagonalPasses_Completed="11" backPasses="12" backPasses_Completed="12" passesIntoOffensiveArea="5" passesIntoOffensiveArea_Completed="2" passes_OwnHalf="29" passes_OwnHalf_Completed="23" passes_OpposingHalf="19" passes_OpposingHalf_Completed="14" />
+            <stats-duels duels_Defensive_OpposingHalf="0" duels_Defensive_OpposingHalf_Won="0" duels_OppoosingPenaltyArea="0" duels_OppoosingPenaltyArea_Won="0" duels_OwnPenaltyArea="0" duels_OwnPenaltyArea_Won="0" />
+            <stats-performance distance="10936.37" distance_1HT="5186.92" distance_2HT="5749.45" distance_Last15Minutes="2052.64" playedTime_Last15Minutes="988.8" distance_OwnHalf="6836.28" distance_OwnHalf_1HT="3324.99" distance_OwnHalf_2HT="3511.29" distance_OpposingHalf="4100.09" distance_OpposingHalf_1HT="1861.94" distance_OpposingHalf_2HT="2238.15" distance_BallInPossesion="6216.84" distance_BallInPossesion_1HT="3103.77" distance_BallInPossesion_2HT="3113.06" distance_BallNotInPossesion="4718.09" distance_BallNotInPossesion_1HT="2082.92" distance_BallNotInPossesion_2HT="2635.18" maxSpeed="8.64" />
+            <stats-runs sprints="15" sprints_Distance="299.46" sprints_1HT="6" sprints_2HT="9" sprints_Forwards="7" sprints_Backwards="8" sprints_BallInPossesion="8" sprints_BallNotInPossesion="7" fastRuns="25" fastRuns_Distance="292.91" fastRuns_1HT="10" fastRuns_2HT="15" fastRuns_Forwards="11" fastRuns_Backwards="14" fastRuns_BallInPossesion="7" fastRuns_BallNotInPossesion="18" offensiveRuns="22" offensiveRuns_Distance="567.87" offensiveRuns_1HT="10" offensiveRuns_2HT="12" />
+            <stats-goalkeeper avgDistance_Goalkeeper_EndLine="47.78" avgDistance_Goalkeeper_EndLine_AtSaves="0.0" />
+          </player-stats-tracking>
+        </player-stats>
+      </player>
+      <player>
+        <player-metadata player-key="25839" uniform-number="23">
+          <name first="Florian" last="Dick" full="Florian Dick" nickname="F. Dick" extensive="Florian Dick" />
+        </player-metadata>
+        <player-stats stats-coverage="standard" date-coverage-type="event" score="0">
+          <rating rating-type="standard" rating-value-goalie="6.1" rating-value-defenseman="7.1" rating-value-mid-fielder="7.0" rating-value-forward="5.5" />
+          <rating rating-type="grade" rating-value="2.4" />
+          <rating rating-type="index" rating-value-goalie="6.1" rating-value-defenseman="7.7" rating-value-mid-fielder="7.4" rating-value-forward="6.3" />
+          <player-stats-soccer duels-won="13" duels-won-ground="7" duels-won-header="6" duels-lost="5" duels-lost-ground="3" duels-lost-header="2" duels-won-percentage="72.22" passes-completed="53" passes-failed="17" passes-completions-percentage="75.71" passes-failed-percentage="24.29" passes="70" balls-touched="101" tracking-distance="12093.18" tracking-average-speed="7.848" tracking-max-speed="30.564" tracking-sprints="18" tracking-sprints-distance="332.86" tracking-fast-runs="36" tracking-fast-runs-distance="447.46">
+            <stats-soccer-defensive saves="0" catches-punches-crosses="0" catches-punches-corners="0" goals-against-total="1" penalty-saves="0" />
+            <stats-soccer-offensive shots-total="1" offsides="0" corner-kicks="0" crosses="4" assists-total="0" shot-assists="0" freekicks="1" miss-chance="0" throw-in="9" punt="0" shots-penalty-shot-scored="0" shots-penalty-shot-missed="0" dfl-assists-total="0" shots-total-outside-box="1" shots-total-inside-box="0" shots-foot-inside-box="0" shots-foot-outside-box="1" shots-total-header="0" />
+            <stats-soccer-foul fouls-commited="1" fouls-suffered="2" yellow-red-cards="0" red-cards="0" yellow-cards="0" />
+          </player-stats-soccer>
+          <player-stats-tracking>
+            <stats-time playedTime="5542.76" playedTime_1HT="2753.92" playedTime_2HT="2788.84" />
+            <stats-ball ballTouchesTotal="101" ballTouch_OwnHalf="54" ballTouch_OpposingHalf="47" ballTouch_OwnPenaltyArea="2" ballTouch_OpposingPenaltyArea="1" ballPossessionTime="0.0" avgDistance_ToBall="30.7" />
+            <stats-passes passesTotal="70" passesTotal_Completed="53" squarePasses="10" squarePasses_Completed="10" troughBallPasses="18" troughBallPasses_Completed="12" diagonalPasses="24" diagonalPasses_Completed="16" backPasses="11" backPasses_Completed="11" passesIntoOffensiveArea="12" passesIntoOffensiveArea_Completed="6" passes_OwnHalf="39" passes_OwnHalf_Completed="31" passes_OpposingHalf="31" passes_OpposingHalf_Completed="22" />
+            <stats-duels duels_Defensive_OpposingHalf="0" duels_Defensive_OpposingHalf_Won="0" duels_OppoosingPenaltyArea="1" duels_OppoosingPenaltyArea_Won="0" duels_OwnPenaltyArea="0" duels_OwnPenaltyArea_Won="0" />
+            <stats-performance distance="12093.19" distance_1HT="5997.13" distance_2HT="6096.06" distance_Last15Minutes="2047.67" playedTime_Last15Minutes="988.8" distance_OwnHalf="7825.61" distance_OwnHalf_1HT="3984.97" distance_OwnHalf_2HT="3840.64" distance_OpposingHalf="4267.58" distance_OpposingHalf_1HT="2012.16" distance_OpposingHalf_2HT="2255.42" distance_BallInPossesion="7168.18" distance_BallInPossesion_1HT="3723.23" distance_BallInPossesion_2HT="3444.95" distance_BallNotInPossesion="4923.43" distance_BallNotInPossesion_1HT="2273.67" distance_BallNotInPossesion_2HT="2649.75" maxSpeed="8.49" />
+            <stats-runs sprints="18" sprints_Distance="340.61" sprints_1HT="5" sprints_2HT="13" sprints_Forwards="11" sprints_Backwards="7" sprints_BallInPossesion="10" sprints_BallNotInPossesion="8" fastRuns="36" fastRuns_Distance="457.42" fastRuns_1HT="21" fastRuns_2HT="15" fastRuns_Forwards="21" fastRuns_Backwards="15" fastRuns_BallInPossesion="16" fastRuns_BallNotInPossesion="20" offensiveRuns="26" offensiveRuns_Distance="915.66" offensiveRuns_1HT="10" offensiveRuns_2HT="16" />
+            <stats-goalkeeper avgDistance_Goalkeeper_EndLine="46.19" avgDistance_Goalkeeper_EndLine_AtSaves="0.0" />
+          </player-stats-tracking>
+        </player-stats>
+      </player>
+      <player>
+        <player-metadata player-key="24305" uniform-number="6">
+          <name first="Mathias" last="Abel" full="Mathias Abel" nickname="M. Abel" extensive="Mathias Abel" />
+        </player-metadata>
+        <player-stats stats-coverage="standard" date-coverage-type="event" score="0">
+          <rating rating-type="standard" rating-value-goalie="5.2" rating-value-defenseman="5.1" rating-value-mid-fielder="4.7" rating-value-forward="2.8" />
+          <rating rating-type="grade" rating-value="3.4" />
+          <rating rating-type="index" rating-value-goalie="5.2" rating-value-defenseman="5.1" rating-value-mid-fielder="4.3" rating-value-forward="2.5" />
+          <player-stats-soccer duels-won="10" duels-won-ground="2" duels-won-header="8" duels-lost="3" duels-lost-ground="1" duels-lost-header="2" duels-won-percentage="76.92" passes-completed="33" passes-failed="2" passes-completions-percentage="94.29" passes-failed-percentage="5.71" passes="35" balls-touched="52" tracking-distance="10702.13" tracking-average-speed="6.948" tracking-max-speed="27.684" tracking-sprints="9" tracking-sprints-distance="111.79" tracking-fast-runs="24" tracking-fast-runs-distance="217.04">
+            <stats-soccer-defensive saves="0" catches-punches-crosses="0" catches-punches-corners="0" goals-against-total="1" penalty-saves="0" />
+            <stats-soccer-offensive shots-total="0" offsides="0" corner-kicks="0" crosses="0" assists-total="0" shot-assists="0" freekicks="1" miss-chance="0" throw-in="0" punt="0" shots-penalty-shot-scored="0" shots-penalty-shot-missed="0" dfl-assists-total="0" shots-total-outside-box="0" shots-total-inside-box="0" shots-foot-inside-box="0" shots-foot-outside-box="0" shots-total-header="0" />
+            <stats-soccer-foul fouls-commited="0" fouls-suffered="0" yellow-red-cards="0" red-cards="0" yellow-cards="0" />
+          </player-stats-soccer>
+          <player-stats-tracking>
+            <stats-time playedTime="5542.76" playedTime_1HT="2753.92" playedTime_2HT="2788.84" />
+            <stats-ball ballTouchesTotal="52" ballTouch_OwnHalf="45" ballTouch_OpposingHalf="7" ballTouch_OwnPenaltyArea="2" ballTouch_OpposingPenaltyArea="1" ballPossessionTime="0.0" avgDistance_ToBall="27.39" />
+            <stats-passes passesTotal="35" passesTotal_Completed="33" squarePasses="14" squarePasses_Completed="14" troughBallPasses="3" troughBallPasses_Completed="1" diagonalPasses="11" diagonalPasses_Completed="11" backPasses="7" backPasses_Completed="7" passesIntoOffensiveArea="0" passesIntoOffensiveArea_Completed="0" passes_OwnHalf="29" passes_OwnHalf_Completed="27" passes_OpposingHalf="6" passes_OpposingHalf_Completed="6" />
+            <stats-duels duels_Defensive_OpposingHalf="0" duels_Defensive_OpposingHalf_Won="0" duels_OppoosingPenaltyArea="0" duels_OppoosingPenaltyArea_Won="0" duels_OwnPenaltyArea="0" duels_OwnPenaltyArea_Won="0" />
+            <stats-performance distance="10702.13" distance_1HT="5329.46" distance_2HT="5372.67" distance_Last15Minutes="1904.41" playedTime_Last15Minutes="988.8" distance_OwnHalf="8482.1" distance_OwnHalf_1HT="4303.96" distance_OwnHalf_2HT="4178.13" distance_OpposingHalf="2220.03" distance_OpposingHalf_1HT="1025.5" distance_OpposingHalf_2HT="1194.53" distance_BallInPossesion="6070.95" distance_BallInPossesion_1HT="3175.73" distance_BallInPossesion_2HT="2895.21" distance_BallNotInPossesion="4629.49" distance_BallNotInPossesion_1HT="2153.57" distance_BallNotInPossesion_2HT="2475.92" maxSpeed="7.69" />
+            <stats-runs sprints="9" sprints_Distance="113.47" sprints_1HT="6" sprints_2HT="3" sprints_Forwards="0" sprints_Backwards="9" sprints_BallInPossesion="3" sprints_BallNotInPossesion="6" fastRuns="24" fastRuns_Distance="231.71" fastRuns_1HT="9" fastRuns_2HT="15" fastRuns_Forwards="4" fastRuns_Backwards="20" fastRuns_BallInPossesion="8" fastRuns_BallNotInPossesion="16" offensiveRuns="16" offensiveRuns_Distance="508.57" offensiveRuns_1HT="6" offensiveRuns_2HT="10" />
+            <stats-goalkeeper avgDistance_Goalkeeper_EndLine="41.6" avgDistance_Goalkeeper_EndLine_AtSaves="0.0" />
+          </player-stats-tracking>
+        </player-stats>
+      </player>
+      <player>
+        <player-metadata player-key="24655" uniform-number="7">
+          <name first="Oliver" last="Kirch" full="Oliver Kirch" nickname="O. Kirch" extensive="Oliver Kirch" />
+        </player-metadata>
+        <player-stats stats-coverage="standard" date-coverage-type="event" score="0">
+          <rating rating-type="standard" rating-value-goalie="6.1" rating-value-defenseman="3.7" rating-value-mid-fielder="3.9" rating-value-forward="4.7" />
+          <rating rating-type="grade" rating-value="4.0" />
+          <rating rating-type="index" rating-value-goalie="6.1" rating-value-defenseman="4.4" rating-value-mid-fielder="4.4" rating-value-forward="5.6" />
+          <player-stats-soccer duels-won="3" duels-won-ground="3" duels-won-header="0" duels-lost="8" duels-lost-ground="5" duels-lost-header="3" duels-won-percentage="27.27" passes-completed="47" passes-failed="13" passes-completions-percentage="78.33" passes-failed-percentage="21.67" passes="60" balls-touched="70" tracking-distance="12205.78" tracking-average-speed="7.92" tracking-max-speed="28.584" tracking-sprints="14" tracking-sprints-distance="305.97" tracking-fast-runs="54" tracking-fast-runs-distance="760.16">
+            <stats-soccer-defensive saves="0" catches-punches-crosses="0" catches-punches-corners="0" goals-against-total="1" penalty-saves="0" />
+            <stats-soccer-offensive shots-total="1" offsides="0" corner-kicks="0" crosses="1" assists-total="0" shot-assists="0" freekicks="1" miss-chance="0" throw-in="0" punt="0" shots-penalty-shot-scored="0" shots-penalty-shot-missed="0" dfl-assists-total="0" shots-total-outside-box="1" shots-total-inside-box="0" shots-foot-inside-box="0" shots-foot-outside-box="1" shots-total-header="0" />
+            <stats-soccer-foul fouls-commited="1" fouls-suffered="1" yellow-red-cards="0" red-cards="0" yellow-cards="0" />
+          </player-stats-soccer>
+          <player-stats-tracking>
+            <stats-time playedTime="5542.76" playedTime_1HT="2753.92" playedTime_2HT="2788.84" />
+            <stats-ball ballTouchesTotal="70" ballTouch_OwnHalf="37" ballTouch_OpposingHalf="33" ballTouch_OwnPenaltyArea="0" ballTouch_OpposingPenaltyArea="0" ballPossessionTime="0.0" avgDistance_ToBall="22.07" />
+            <stats-passes passesTotal="60" passesTotal_Completed="47" squarePasses="21" squarePasses_Completed="19" troughBallPasses="8" troughBallPasses_Completed="4" diagonalPasses="17" diagonalPasses_Completed="14" backPasses="10" backPasses_Completed="10" passesIntoOffensiveArea="7" passesIntoOffensiveArea_Completed="2" passes_OwnHalf="31" passes_OwnHalf_Completed="28" passes_OpposingHalf="29" passes_OpposingHalf_Completed="19" />
+            <stats-duels duels_Defensive_OpposingHalf="0" duels_Defensive_OpposingHalf_Won="0" duels_OppoosingPenaltyArea="0" duels_OppoosingPenaltyArea_Won="0" duels_OwnPenaltyArea="0" duels_OwnPenaltyArea_Won="0" />
+            <stats-performance distance="12205.78" distance_1HT="6141.45" distance_2HT="6064.33" distance_Last15Minutes="2143.09" playedTime_Last15Minutes="988.8" distance_OwnHalf="6873.05" distance_OwnHalf_1HT="3387.63" distance_OwnHalf_2HT="3485.42" distance_OpposingHalf="5332.73" distance_OpposingHalf_1HT="2753.82" distance_OpposingHalf_2HT="2578.91" distance_BallInPossesion="7118.59" distance_BallInPossesion_1HT="3730.14" distance_BallInPossesion_2HT="3388.45" distance_BallNotInPossesion="5084.77" distance_BallNotInPossesion_1HT="2410.71" distance_BallNotInPossesion_2HT="2674.06" maxSpeed="7.94" />
+            <stats-runs sprints="14" sprints_Distance="313.22" sprints_1HT="6" sprints_2HT="8" sprints_Forwards="8" sprints_Backwards="6" sprints_BallInPossesion="9" sprints_BallNotInPossesion="5" fastRuns="54" fastRuns_Distance="772.17" fastRuns_1HT="29" fastRuns_2HT="25" fastRuns_Forwards="23" fastRuns_Backwards="31" fastRuns_BallInPossesion="31" fastRuns_BallNotInPossesion="23" offensiveRuns="15" offensiveRuns_Distance="446.92" offensiveRuns_1HT="4" offensiveRuns_2HT="11" />
+            <stats-goalkeeper avgDistance_Goalkeeper_EndLine="50.1" avgDistance_Goalkeeper_EndLine_AtSaves="0.0" />
+          </player-stats-tracking>
+        </player-stats>
+      </player>
+      <player>
+        <player-metadata player-key="31781" uniform-number="21">
+          <name first="Pierre" last="De Wit" full="Pierre De Wit" nickname="P. De Wit" extensive="Pierre De Wit" />
+        </player-metadata>
+        <player-stats stats-coverage="standard" date-coverage-type="event" score="0">
+          <rating rating-type="standard" rating-value-goalie="6.2" rating-value-defenseman="4.3" rating-value-mid-fielder="4.5" rating-value-forward="5.0" />
+          <rating rating-type="grade" rating-value="3.7" />
+          <rating rating-type="index" rating-value-goalie="6.2" rating-value-defenseman="4.9" rating-value-mid-fielder="5.1" rating-value-forward="5.8" />
+          <player-stats-soccer duels-won="4" duels-won-ground="2" duels-won-header="2" duels-lost="7" duels-lost-ground="7" duels-lost-header="0" duels-won-percentage="36.36" passes-completed="21" passes-failed="4" passes-completions-percentage="84" passes-failed-percentage="16" passes="25" balls-touched="35" tracking-distance="6101.70" tracking-average-speed="7.992" tracking-max-speed="28.188" tracking-sprints="4" tracking-sprints-distance="72.63" tracking-fast-runs="21" tracking-fast-runs-distance="239.53">
+            <stats-soccer-defensive saves="0" catches-punches-crosses="0" catches-punches-corners="0" goals-against-total="1" penalty-saves="0" />
+            <stats-soccer-offensive shots-total="2" offsides="0" corner-kicks="0" crosses="0" assists-total="0" shot-assists="0" freekicks="0" miss-chance="0" throw-in="1" punt="0" shots-penalty-shot-scored="0" shots-penalty-shot-missed="0" dfl-assists-total="0" shots-total-outside-box="1" shots-total-inside-box="1" shots-foot-inside-box="1" shots-foot-outside-box="1" shots-total-header="0" />
+            <stats-soccer-foul fouls-commited="1" fouls-suffered="0" yellow-red-cards="0" red-cards="0" yellow-cards="0" />
+          </player-stats-soccer>
+          <player-stats-tracking>
+            <stats-time playedTime="2753.92" playedTime_1HT="2753.92" playedTime_2HT="0.0" />
+            <stats-ball ballTouchesTotal="35" ballTouch_OwnHalf="17" ballTouch_OpposingHalf="18" ballTouch_OwnPenaltyArea="0" ballTouch_OpposingPenaltyArea="2" ballPossessionTime="0.0" avgDistance_ToBall="21.06" />
+            <stats-passes passesTotal="25" passesTotal_Completed="21" squarePasses="7" squarePasses_Completed="7" troughBallPasses="4" troughBallPasses_Completed="2" diagonalPasses="8" diagonalPasses_Completed="7" backPasses="5" backPasses_Completed="5" passesIntoOffensiveArea="1" passesIntoOffensiveArea_Completed="1" passes_OwnHalf="14" passes_OwnHalf_Completed="10" passes_OpposingHalf="11" passes_OpposingHalf_Completed="11" />
+            <stats-duels duels_Defensive_OpposingHalf="0" duels_Defensive_OpposingHalf_Won="0" duels_OppoosingPenaltyArea="0" duels_OppoosingPenaltyArea_Won="0" duels_OwnPenaltyArea="0" duels_OwnPenaltyArea_Won="0" />
+            <stats-performance distance="6101.7" distance_1HT="6101.7" distance_2HT="0.0" distance_Last15Minutes="0.0" playedTime_Last15Minutes="0.0" distance_OwnHalf="3016.68" distance_OwnHalf_1HT="3016.68" distance_OwnHalf_2HT="0.0" distance_OpposingHalf="3085.01" distance_OpposingHalf_1HT="3085.01" distance_OpposingHalf_2HT="0.0" distance_BallInPossesion="3734.62" distance_BallInPossesion_1HT="3734.62" distance_BallInPossesion_2HT="0.0" distance_BallNotInPossesion="2366.69" distance_BallNotInPossesion_1HT="2366.69" distance_BallNotInPossesion_2HT="0.0" maxSpeed="7.83" />
+            <stats-runs sprints="4" sprints_Distance="72.63" sprints_1HT="4" sprints_2HT="0" sprints_Forwards="2" sprints_Backwards="2" sprints_BallInPossesion="2" sprints_BallNotInPossesion="2" fastRuns="21" fastRuns_Distance="239.53" fastRuns_1HT="21" fastRuns_2HT="0" fastRuns_Forwards="13" fastRuns_Backwards="8" fastRuns_BallInPossesion="12" fastRuns_BallNotInPossesion="9" offensiveRuns="17" offensiveRuns_Distance="450.94" offensiveRuns_1HT="17" offensiveRuns_2HT="0" />
+            <stats-goalkeeper avgDistance_Goalkeeper_EndLine="54.21" avgDistance_Goalkeeper_EndLine_AtSaves="0.0" />
+          </player-stats-tracking>
+        </player-stats>
+      </player>
+      <player>
+        <player-metadata player-key="16590" uniform-number="8">
+          <name first="Christian" last="Tiffert" full="Christian Tiffert" nickname="C. Tiffert" extensive="Christian Tiffert" />
+        </player-metadata>
+        <player-stats stats-coverage="standard" date-coverage-type="event" score="0">
+          <rating rating-type="standard" rating-value-goalie="6.0" rating-value-defenseman="3.9" rating-value-mid-fielder="4.6" rating-value-forward="5.2" />
+          <rating rating-type="grade" rating-value="3.7" />
+          <rating rating-type="index" rating-value-goalie="6.0" rating-value-defenseman="4.3" rating-value-mid-fielder="4.8" rating-value-forward="5.6" />
+          <player-stats-soccer duels-won="5" duels-won-ground="4" duels-won-header="1" duels-lost="10" duels-lost-ground="4" duels-lost-header="6" duels-won-percentage="33.33" passes-completed="32" passes-failed="9" passes-completions-percentage="78.05" passes-failed-percentage="21.95" passes="41" balls-touched="62" tracking-distance="11385.12" tracking-average-speed="7.38" tracking-max-speed="28.008" tracking-sprints="19" tracking-sprints-distance="339.15" tracking-fast-runs="53" tracking-fast-runs-distance="674.59">
+            <stats-soccer-defensive saves="0" catches-punches-crosses="0" catches-punches-corners="0" goals-against-total="1" penalty-saves="0" />
+            <stats-soccer-offensive shots-total="1" offsides="2" corner-kicks="3" crosses="3" assists-total="0" shot-assists="3" freekicks="5" miss-chance="0" throw-in="1" punt="0" shots-penalty-shot-scored="0" shots-penalty-shot-missed="0" dfl-assists-total="0" shots-total-outside-box="1" shots-total-inside-box="0" shots-foot-inside-box="0" shots-foot-outside-box="1" shots-total-header="0" />
+            <stats-soccer-foul fouls-commited="3" fouls-suffered="0" yellow-red-cards="0" red-cards="0" yellow-cards="1" />
+          </player-stats-soccer>
+          <player-stats-tracking>
+            <stats-time playedTime="5542.76" playedTime_1HT="2753.92" playedTime_2HT="2788.84" />
+            <stats-ball ballTouchesTotal="62" ballTouch_OwnHalf="13" ballTouch_OpposingHalf="49" ballTouch_OwnPenaltyArea="0" ballTouch_OpposingPenaltyArea="3" ballPossessionTime="0.0" avgDistance_ToBall="23.36" />
+            <stats-passes passesTotal="41" passesTotal_Completed="32" squarePasses="13" squarePasses_Completed="11" troughBallPasses="3" troughBallPasses_Completed="3" diagonalPasses="12" diagonalPasses_Completed="7" backPasses="10" backPasses_Completed="9" passesIntoOffensiveArea="3" passesIntoOffensiveArea_Completed="1" passes_OwnHalf="9" passes_OwnHalf_Completed="8" passes_OpposingHalf="32" passes_OpposingHalf_Completed="24" />
+            <stats-duels duels_Defensive_OpposingHalf="0" duels_Defensive_OpposingHalf_Won="0" duels_OppoosingPenaltyArea="2" duels_OppoosingPenaltyArea_Won="0" duels_OwnPenaltyArea="0" duels_OwnPenaltyArea_Won="0" />
+            <stats-performance distance="11385.12" distance_1HT="5471.07" distance_2HT="5914.05" distance_Last15Minutes="2291.37" playedTime_Last15Minutes="988.8" distance_OwnHalf="3739.93" distance_OwnHalf_1HT="1089.38" distance_OwnHalf_2HT="2650.54" distance_OpposingHalf="7645.2" distance_OpposingHalf_1HT="4381.69" distance_OpposingHalf_2HT="3263.51" distance_BallInPossesion="6816.98" distance_BallInPossesion_1HT="3548.31" distance_BallInPossesion_2HT="3268.67" distance_BallNotInPossesion="4567.01" distance_BallNotInPossesion_1HT="1922.52" distance_BallNotInPossesion_2HT="2644.49" maxSpeed="7.78" />
+            <stats-runs sprints="19" sprints_Distance="346.51" sprints_1HT="8" sprints_2HT="11" sprints_Forwards="14" sprints_Backwards="5" sprints_BallInPossesion="11" sprints_BallNotInPossesion="8" fastRuns="53" fastRuns_Distance="710.92" fastRuns_1HT="25" fastRuns_2HT="28" fastRuns_Forwards="40" fastRuns_Backwards="13" fastRuns_BallInPossesion="38" fastRuns_BallNotInPossesion="15" offensiveRuns="51" offensiveRuns_Distance="1734.88" offensiveRuns_1HT="26" offensiveRuns_2HT="25" />
+            <stats-goalkeeper avgDistance_Goalkeeper_EndLine="60.45" avgDistance_Goalkeeper_EndLine_AtSaves="0.0" />
+          </player-stats-tracking>
+        </player-stats>
+      </player>
+      <player>
+        <player-metadata player-key="33872" uniform-number="10">
+          <name first="Olcay" last="Sahan" full="Olcay Sahan" nickname="O. Sahan" extensive="Olcay Sahan" />
+        </player-metadata>
+        <player-stats stats-coverage="standard" date-coverage-type="event" score="0">
+          <rating rating-type="standard" rating-value-goalie="6.5" rating-value-defenseman="4.9" rating-value-mid-fielder="6.8" rating-value-forward="7.1" />
+          <rating rating-type="grade" rating-value="2.6" />
+          <rating rating-type="index" rating-value-goalie="6.5" rating-value-defenseman="6.5" rating-value-mid-fielder="7.5" rating-value-forward="7.8" />
+          <player-stats-soccer duels-won="9" duels-won-ground="8" duels-won-header="1" duels-lost="15" duels-lost-ground="12" duels-lost-header="3" duels-won-percentage="37.5" passes-completed="26" passes-failed="9" passes-completions-percentage="74.29" passes-failed-percentage="25.71" passes="35" balls-touched="56" tracking-distance="12021.34" tracking-average-speed="8.46" tracking-max-speed="32.508" tracking-sprints="26" tracking-sprints-distance="421.12" tracking-fast-runs="60" tracking-fast-runs-distance="786.11">
+            <stats-soccer-defensive saves="0" catches-punches-crosses="0" catches-punches-corners="0" goals-against-total="1" penalty-saves="0" />
+            <stats-soccer-offensive shots-total="0" offsides="2" corner-kicks="0" crosses="2" assists-total="1" shot-assists="4" freekicks="0" miss-chance="0" throw-in="2" punt="0" shots-penalty-shot-scored="0" shots-penalty-shot-missed="0" dfl-assists-total="1" shots-total-outside-box="0" shots-total-inside-box="0" shots-foot-inside-box="0" shots-foot-outside-box="0" shots-total-header="0" />
+            <stats-soccer-foul fouls-commited="2" fouls-suffered="1" yellow-red-cards="0" red-cards="0" yellow-cards="0" />
+          </player-stats-soccer>
+          <player-stats-tracking>
+            <stats-time playedTime="5124.12" playedTime_1HT="2753.92" playedTime_2HT="2370.2" />
+            <stats-ball ballTouchesTotal="56" ballTouch_OwnHalf="16" ballTouch_OpposingHalf="40" ballTouch_OwnPenaltyArea="2" ballTouch_OpposingPenaltyArea="2" ballPossessionTime="0.0" avgDistance_ToBall="25.23" />
+            <stats-passes passesTotal="35" passesTotal_Completed="26" squarePasses="11" squarePasses_Completed="11" troughBallPasses="3" troughBallPasses_Completed="2" diagonalPasses="9" diagonalPasses_Completed="7" backPasses="7" backPasses_Completed="6" passesIntoOffensiveArea="3" passesIntoOffensiveArea_Completed="3" passes_OwnHalf="11" passes_OwnHalf_Completed="9" passes_OpposingHalf="24" passes_OpposingHalf_Completed="17" />
+            <stats-duels duels_Defensive_OpposingHalf="0" duels_Defensive_OpposingHalf_Won="0" duels_OppoosingPenaltyArea="0" duels_OppoosingPenaltyArea_Won="0" duels_OwnPenaltyArea="0" duels_OwnPenaltyArea_Won="0" />
+            <stats-performance distance="12021.34" distance_1HT="6333.8" distance_2HT="5687.54" distance_Last15Minutes="1516.56" playedTime_Last15Minutes="570.16" distance_OwnHalf="3253.08" distance_OwnHalf_1HT="1666.8" distance_OwnHalf_2HT="1586.27" distance_OpposingHalf="8768.27" distance_OpposingHalf_1HT="4667.0" distance_OpposingHalf_2HT="4101.27" distance_BallInPossesion="7280.21" distance_BallInPossesion_1HT="3885.12" distance_BallInPossesion_2HT="3395.09" distance_BallNotInPossesion="4740.7" distance_BallNotInPossesion_1HT="2448.25" distance_BallNotInPossesion_2HT="2292.45" maxSpeed="9.03" />
+            <stats-runs sprints="26" sprints_Distance="430.08" sprints_1HT="11" sprints_2HT="15" sprints_Forwards="20" sprints_Backwards="6" sprints_BallInPossesion="16" sprints_BallNotInPossesion="10" fastRuns="60" fastRuns_Distance="802.56" fastRuns_1HT="33" fastRuns_2HT="27" fastRuns_Forwards="42" fastRuns_Backwards="18" fastRuns_BallInPossesion="37" fastRuns_BallNotInPossesion="23" offensiveRuns="58" offensiveRuns_Distance="2488.59" offensiveRuns_1HT="29" offensiveRuns_2HT="29" />
+            <stats-goalkeeper avgDistance_Goalkeeper_EndLine="61.78" avgDistance_Goalkeeper_EndLine_AtSaves="0.0" />
+          </player-stats-tracking>
+        </player-stats>
+      </player>
+      <player>
+        <player-metadata player-key="44364" uniform-number="28">
+          <name first="Konstantinos" last="Fortounis" full="Konstantinos Fortounis" nickname="K. Fortounis" extensive="Konstantinos Fortounis" />
+        </player-metadata>
+        <player-stats stats-coverage="standard" date-coverage-type="event" score="0">
+          <rating rating-type="standard" rating-value-goalie="6.3" rating-value-defenseman="5.1" rating-value-mid-fielder="6.6" rating-value-forward="6.6" />
+          <rating rating-type="grade" rating-value="2.7" />
+          <rating rating-type="index" rating-value-goalie="6.3" rating-value-defenseman="5.6" rating-value-mid-fielder="6.7" rating-value-forward="6.8" />
+          <player-stats-soccer duels-won="12" duels-won-ground="10" duels-won-header="2" duels-lost="14" duels-lost-ground="9" duels-lost-header="5" duels-won-percentage="46.15" passes-completed="29" passes-failed="8" passes-completions-percentage="78.38" passes-failed-percentage="21.62" passes="37" balls-touched="56" tracking-distance="11417.53" tracking-average-speed="7.416" tracking-max-speed="30.816" tracking-sprints="13" tracking-sprints-distance="292.42" tracking-fast-runs="46" tracking-fast-runs-distance="697.14">
+            <stats-soccer-defensive saves="0" catches-punches-crosses="0" catches-punches-corners="0" goals-against-total="1" penalty-saves="0" />
+            <stats-soccer-offensive shots-total="3" offsides="0" corner-kicks="0" crosses="2" assists-total="0" shot-assists="2" freekicks="0" miss-chance="1" throw-in="0" punt="0" shots-penalty-shot-scored="0" shots-penalty-shot-missed="0" dfl-assists-total="0" shots-total-outside-box="1" shots-total-inside-box="2" shots-foot-inside-box="2" shots-foot-outside-box="1" shots-total-header="0" />
+            <stats-soccer-foul fouls-commited="1" fouls-suffered="4" yellow-red-cards="0" red-cards="0" yellow-cards="0" />
+          </player-stats-soccer>
+          <player-stats-tracking>
+            <stats-time playedTime="5542.76" playedTime_1HT="2753.92" playedTime_2HT="2788.84" />
+            <stats-ball ballTouchesTotal="56" ballTouch_OwnHalf="16" ballTouch_OpposingHalf="40" ballTouch_OwnPenaltyArea="0" ballTouch_OpposingPenaltyArea="4" ballPossessionTime="0.0" avgDistance_ToBall="25.53" />
+            <stats-passes passesTotal="37" passesTotal_Completed="29" squarePasses="6" squarePasses_Completed="6" troughBallPasses="4" troughBallPasses_Completed="3" diagonalPasses="13" diagonalPasses_Completed="8" backPasses="12" backPasses_Completed="12" passesIntoOffensiveArea="7" passesIntoOffensiveArea_Completed="5" passes_OwnHalf="8" passes_OwnHalf_Completed="6" passes_OpposingHalf="29" passes_OpposingHalf_Completed="23" />
+            <stats-duels duels_Defensive_OpposingHalf="0" duels_Defensive_OpposingHalf_Won="0" duels_OppoosingPenaltyArea="2" duels_OppoosingPenaltyArea_Won="1" duels_OwnPenaltyArea="0" duels_OwnPenaltyArea_Won="0" />
+            <stats-performance distance="11417.53" distance_1HT="5768.84" distance_2HT="5648.69" distance_Last15Minutes="2043.5" playedTime_Last15Minutes="988.8" distance_OwnHalf="3576.39" distance_OwnHalf_1HT="1888.82" distance_OwnHalf_2HT="1687.57" distance_OpposingHalf="7841.14" distance_OpposingHalf_1HT="3880.02" distance_OpposingHalf_2HT="3961.12" distance_BallInPossesion="6798.69" distance_BallInPossesion_1HT="3539.0" distance_BallInPossesion_2HT="3259.68" distance_BallNotInPossesion="4616.83" distance_BallNotInPossesion_1HT="2229.43" distance_BallNotInPossesion_2HT="2387.4" maxSpeed="8.56" />
+            <stats-runs sprints="13" sprints_Distance="298.77" sprints_1HT="4" sprints_2HT="9" sprints_Forwards="12" sprints_Backwards="1" sprints_BallInPossesion="9" sprints_BallNotInPossesion="4" fastRuns="46" fastRuns_Distance="708.05" fastRuns_1HT="27" fastRuns_2HT="19" fastRuns_Forwards="32" fastRuns_Backwards="14" fastRuns_BallInPossesion="29" fastRuns_BallNotInPossesion="17" offensiveRuns="64" offensiveRuns_Distance="1745.37" offensiveRuns_1HT="34" offensiveRuns_2HT="30" />
+            <stats-goalkeeper avgDistance_Goalkeeper_EndLine="60.15" avgDistance_Goalkeeper_EndLine_AtSaves="0.0" />
+          </player-stats-tracking>
+        </player-stats>
+      </player>
+      <player>
+        <player-metadata player-key="38490" uniform-number="30">
+          <name first="Dorge" last="Kouemaha" full="Dorge Kouemaha" nickname="D. Kouemaha" extensive="Dorge Rostand Kouemaha" />
+        </player-metadata>
+        <player-stats stats-coverage="standard" date-coverage-type="event" score="0">
+          <rating rating-type="standard" rating-value-goalie="6.1" rating-value-defenseman="3.4" rating-value-mid-fielder="3.8" rating-value-forward="4.8" />
+          <rating rating-type="grade" rating-value="3.6" />
+          <rating rating-type="index" rating-value-goalie="6.1" rating-value-defenseman="3.8" rating-value-mid-fielder="4.0" rating-value-forward="5.4" />
+          <player-stats-soccer duels-won="4" duels-won-ground="3" duels-won-header="1" duels-lost="11" duels-lost-ground="3" duels-lost-header="8" duels-won-percentage="26.67" passes-completed="7" passes-failed="3" passes-completions-percentage="70" passes-failed-percentage="30" passes="10" balls-touched="19" tracking-distance="5758.92" tracking-average-speed="7.524" tracking-max-speed="27.54" tracking-sprints="13" tracking-sprints-distance="189.97" tracking-fast-runs="20" tracking-fast-runs-distance="299.50">
+            <stats-soccer-defensive saves="0" catches-punches-crosses="0" catches-punches-corners="0" goals-against-total="1" penalty-saves="0" />
+            <stats-soccer-offensive shots-total="2" offsides="0" corner-kicks="0" crosses="0" assists-total="0" shot-assists="0" freekicks="0" miss-chance="1" throw-in="0" punt="0" shots-penalty-shot-scored="0" shots-penalty-shot-missed="0" dfl-assists-total="0" shots-total-outside-box="0" shots-total-inside-box="2" shots-foot-inside-box="2" shots-foot-outside-box="0" shots-total-header="0" />
+            <stats-soccer-foul fouls-commited="0" fouls-suffered="0" yellow-red-cards="0" red-cards="0" yellow-cards="0" />
+          </player-stats-soccer>
+          <player-stats-tracking>
+            <stats-time playedTime="2753.92" playedTime_1HT="2753.92" playedTime_2HT="0.0" />
+            <stats-ball ballTouchesTotal="19" ballTouch_OwnHalf="3" ballTouch_OpposingHalf="16" ballTouch_OwnPenaltyArea="0" ballTouch_OpposingPenaltyArea="2" ballPossessionTime="0.0" avgDistance_ToBall="24.43" />
+            <stats-passes passesTotal="10" passesTotal_Completed="7" squarePasses="4" squarePasses_Completed="3" troughBallPasses="0" troughBallPasses_Completed="0" diagonalPasses="2" diagonalPasses_Completed="1" backPasses="3" backPasses_Completed="3" passesIntoOffensiveArea="2" passesIntoOffensiveArea_Completed="1" passes_OwnHalf="1" passes_OwnHalf_Completed="1" passes_OpposingHalf="9" passes_OpposingHalf_Completed="6" />
+            <stats-duels duels_Defensive_OpposingHalf="0" duels_Defensive_OpposingHalf_Won="0" duels_OppoosingPenaltyArea="2" duels_OppoosingPenaltyArea_Won="1" duels_OwnPenaltyArea="0" duels_OwnPenaltyArea_Won="0" />
+            <stats-performance distance="5758.92" distance_1HT="5758.92" distance_2HT="0.0" distance_Last15Minutes="0.0" playedTime_Last15Minutes="0.0" distance_OwnHalf="672.03" distance_OwnHalf_1HT="672.03" distance_OwnHalf_2HT="0.0" distance_OpposingHalf="5086.89" distance_OpposingHalf_1HT="5086.89" distance_OpposingHalf_2HT="0.0" distance_BallInPossesion="3646.28" distance_BallInPossesion_1HT="3646.28" distance_BallInPossesion_2HT="0.0" distance_BallNotInPossesion="2112.2" distance_BallNotInPossesion_1HT="2112.2" distance_BallNotInPossesion_2HT="0.0" maxSpeed="7.65" />
+            <stats-runs sprints="13" sprints_Distance="189.97" sprints_1HT="13" sprints_2HT="0" sprints_Forwards="12" sprints_Backwards="1" sprints_BallInPossesion="10" sprints_BallNotInPossesion="3" fastRuns="20" fastRuns_Distance="299.5" fastRuns_1HT="20" fastRuns_2HT="0" fastRuns_Forwards="17" fastRuns_Backwards="3" fastRuns_BallInPossesion="14" fastRuns_BallNotInPossesion="6" offensiveRuns="40" offensiveRuns_Distance="1462.4" offensiveRuns_1HT="40" offensiveRuns_2HT="0" />
+            <stats-goalkeeper avgDistance_Goalkeeper_EndLine="68.07" avgDistance_Goalkeeper_EndLine_AtSaves="0.0" />
+          </player-stats-tracking>
+        </player-stats>
+      </player>
+      <player>
+        <player-metadata player-key="31651" uniform-number="1">
+          <name first="Tobias" last="Sippel" full="Tobias Sippel" nickname="T. Sippel" extensive="Tobias Sippel" />
+        </player-metadata>
+        <player-stats stats-coverage="standard" date-coverage-type="event" score="0">
+          <rating rating-type="standard" rating-value-goalie="" rating-value-defenseman="" rating-value-mid-fielder="" rating-value-forward="" />
+          <rating rating-type="grade" rating-value="" />
+          <rating rating-type="index" rating-value-goalie="" rating-value-defenseman="" rating-value-mid-fielder="" rating-value-forward="" />
+          <player-stats-soccer duels-won="0" duels-won-ground="0" duels-won-header="0" duels-lost="0" duels-lost-ground="0" duels-lost-header="0" duels-won-percentage="0" passes-completed="0" passes-failed="0" passes-completions-percentage="0" passes-failed-percentage="0" passes="0" balls-touched="0" tracking-distance="0.00" tracking-average-speed="0" tracking-max-speed="0" tracking-sprints="0" tracking-sprints-distance="0.00" tracking-fast-runs="0" tracking-fast-runs-distance="0.00">
+            <stats-soccer-defensive saves="0" catches-punches-crosses="0" catches-punches-corners="0" goals-against-total="0" penalty-saves="0" />
+            <stats-soccer-offensive shots-total="0" offsides="0" corner-kicks="0" crosses="0" assists-total="0" shot-assists="0" freekicks="0" miss-chance="0" throw-in="0" punt="0" shots-penalty-shot-scored="0" shots-penalty-shot-missed="0" dfl-assists-total="0" shots-total-outside-box="0" shots-total-inside-box="0" shots-foot-inside-box="0" shots-foot-outside-box="0" shots-total-header="0" />
+            <stats-soccer-foul fouls-commited="0" fouls-suffered="0" yellow-red-cards="0" red-cards="0" yellow-cards="0" />
+          </player-stats-soccer>
+        </player-stats>
+      </player>
+      <player>
+        <player-metadata player-key="37490" uniform-number="3">
+          <name first="Leon" last="Jessen" full="Leon Jessen" nickname="L. Jessen" extensive="Leon Jessen" />
+        </player-metadata>
+        <player-stats stats-coverage="standard" date-coverage-type="event" score="0">
+          <rating rating-type="standard" rating-value-goalie="" rating-value-defenseman="" rating-value-mid-fielder="" rating-value-forward="" />
+          <rating rating-type="grade" rating-value="" />
+          <rating rating-type="index" rating-value-goalie="" rating-value-defenseman="" rating-value-mid-fielder="" rating-value-forward="" />
+          <player-stats-soccer duels-won="0" duels-won-ground="0" duels-won-header="0" duels-lost="0" duels-lost-ground="0" duels-lost-header="0" duels-won-percentage="0" passes-completed="0" passes-failed="0" passes-completions-percentage="0" passes-failed-percentage="0" passes="0" balls-touched="0" tracking-distance="0.00" tracking-average-speed="0" tracking-max-speed="0" tracking-sprints="0" tracking-sprints-distance="0.00" tracking-fast-runs="0" tracking-fast-runs-distance="0.00">
+            <stats-soccer-defensive saves="0" catches-punches-crosses="0" catches-punches-corners="0" goals-against-total="0" penalty-saves="0" />
+            <stats-soccer-offensive shots-total="0" offsides="0" corner-kicks="0" crosses="0" assists-total="0" shot-assists="0" freekicks="0" miss-chance="0" throw-in="0" punt="0" shots-penalty-shot-scored="0" shots-penalty-shot-missed="0" dfl-assists-total="0" shots-total-outside-box="0" shots-total-inside-box="0" shots-foot-inside-box="0" shots-foot-outside-box="0" shots-total-header="0" />
+            <stats-soccer-foul fouls-commited="0" fouls-suffered="0" yellow-red-cards="0" red-cards="0" yellow-cards="0" />
+          </player-stats-soccer>
+        </player-stats>
+      </player>
+      <player>
+        <player-metadata player-key="18756" uniform-number="5">
+          <name first="Martin" last="Amedick" full="Martin Amedick" nickname="M. Amedick" extensive="Martin Amedick" />
+        </player-metadata>
+        <player-stats stats-coverage="standard" date-coverage-type="event" score="0">
+          <rating rating-type="standard" rating-value-goalie="" rating-value-defenseman="" rating-value-mid-fielder="" rating-value-forward="" />
+          <rating rating-type="grade" rating-value="" />
+          <rating rating-type="index" rating-value-goalie="" rating-value-defenseman="" rating-value-mid-fielder="" rating-value-forward="" />
+          <player-stats-soccer duels-won="0" duels-won-ground="0" duels-won-header="0" duels-lost="0" duels-lost-ground="0" duels-lost-header="0" duels-won-percentage="0" passes-completed="0" passes-failed="0" passes-completions-percentage="0" passes-failed-percentage="0" passes="0" balls-touched="0" tracking-distance="0.00" tracking-average-speed="0" tracking-max-speed="0" tracking-sprints="0" tracking-sprints-distance="0.00" tracking-fast-runs="0" tracking-fast-runs-distance="0.00">
+            <stats-soccer-defensive saves="0" catches-punches-crosses="0" catches-punches-corners="0" goals-against-total="0" penalty-saves="0" />
+            <stats-soccer-offensive shots-total="0" offsides="0" corner-kicks="0" crosses="0" assists-total="0" shot-assists="0" freekicks="0" miss-chance="0" throw-in="0" punt="0" shots-penalty-shot-scored="0" shots-penalty-shot-missed="0" dfl-assists-total="0" shots-total-outside-box="0" shots-total-inside-box="0" shots-foot-inside-box="0" shots-foot-outside-box="0" shots-total-header="0" />
+            <stats-soccer-foul fouls-commited="0" fouls-suffered="0" yellow-red-cards="0" red-cards="0" yellow-cards="0" />
+          </player-stats-soccer>
+        </player-stats>
+      </player>
+      <player>
+        <player-metadata player-key="42402" uniform-number="13">
+          <name first="Thanos" last="Petsos" full="Thanos Petsos" nickname="T. Petsos" extensive="Athanasios Petsos" />
+        </player-metadata>
+        <player-stats stats-coverage="standard" date-coverage-type="event" score="0">
+          <rating rating-type="standard" rating-value-goalie="" rating-value-defenseman="" rating-value-mid-fielder="" rating-value-forward="" />
+          <rating rating-type="grade" rating-value="" />
+          <rating rating-type="index" rating-value-goalie="" rating-value-defenseman="" rating-value-mid-fielder="" rating-value-forward="" />
+          <player-stats-soccer duels-won="0" duels-won-ground="0" duels-won-header="0" duels-lost="0" duels-lost-ground="0" duels-lost-header="0" duels-won-percentage="0" passes-completed="0" passes-failed="0" passes-completions-percentage="0" passes-failed-percentage="0" passes="0" balls-touched="0" tracking-distance="0.00" tracking-average-speed="0" tracking-max-speed="0" tracking-sprints="0" tracking-sprints-distance="0.00" tracking-fast-runs="0" tracking-fast-runs-distance="0.00">
+            <stats-soccer-defensive saves="0" catches-punches-crosses="0" catches-punches-corners="0" goals-against-total="0" penalty-saves="0" />
+            <stats-soccer-offensive shots-total="0" offsides="0" corner-kicks="0" crosses="0" assists-total="0" shot-assists="0" freekicks="0" miss-chance="0" throw-in="0" punt="0" shots-penalty-shot-scored="0" shots-penalty-shot-missed="0" dfl-assists-total="0" shots-total-outside-box="0" shots-total-inside-box="0" shots-foot-inside-box="0" shots-foot-outside-box="0" shots-total-header="0" />
+            <stats-soccer-foul fouls-commited="0" fouls-suffered="0" yellow-red-cards="0" red-cards="0" yellow-cards="0" />
+          </player-stats-soccer>
+        </player-stats>
+      </player>
+      <player>
+        <player-metadata player-key="36792" uniform-number="9">
+          <name first="Itay" last="Shechter" full="Itay Shechter" nickname="I. Shechter" extensive="Itay Menachem Shechter" />
+        </player-metadata>
+        <player-stats stats-coverage="standard" date-coverage-type="event" score="0">
+          <rating rating-type="standard" rating-value-goalie="5.3" rating-value-defenseman="4.0" rating-value-mid-fielder="3.9" rating-value-forward="3.6" />
+          <rating rating-type="grade" rating-value="4.2" />
+          <rating rating-type="index" rating-value-goalie="5.3" rating-value-defenseman="4.5" rating-value-mid-fielder="4.2" rating-value-forward="4.5" />
+          <player-stats-soccer duels-won="5" duels-won-ground="5" duels-won-header="0" duels-lost="7" duels-lost-ground="5" duels-lost-header="2" duels-won-percentage="41.67" passes-completed="7" passes-failed="4" passes-completions-percentage="63.64" passes-failed-percentage="36.36" passes="11" balls-touched="17" tracking-distance="5157.96" tracking-average-speed="7.2" tracking-max-speed="30.456" tracking-sprints="15" tracking-sprints-distance="280.93" tracking-fast-runs="14" tracking-fast-runs-distance="229.89">
+            <stats-soccer-defensive saves="0" catches-punches-crosses="0" catches-punches-corners="0" goals-against-total="0" penalty-saves="0" />
+            <stats-soccer-offensive shots-total="1" offsides="3" corner-kicks="0" crosses="1" assists-total="0" shot-assists="2" freekicks="0" miss-chance="0" throw-in="0" punt="0" shots-penalty-shot-scored="0" shots-penalty-shot-missed="0" dfl-assists-total="0" shots-total-outside-box="0" shots-total-inside-box="1" shots-foot-inside-box="1" shots-foot-outside-box="0" shots-total-header="0" />
+            <stats-soccer-foul fouls-commited="1" fouls-suffered="0" yellow-red-cards="0" red-cards="1" yellow-cards="0" />
+          </player-stats-soccer>
+          <player-stats-tracking>
+            <stats-time playedTime="2574.76" playedTime_1HT="0.0" playedTime_2HT="2574.76" />
+            <stats-ball ballTouchesTotal="17" ballTouch_OwnHalf="0" ballTouch_OpposingHalf="17" ballTouch_OwnPenaltyArea="0" ballTouch_OpposingPenaltyArea="5" ballPossessionTime="0.0" avgDistance_ToBall="23.92" />
+            <stats-passes passesTotal="11" passesTotal_Completed="7" squarePasses="5" squarePasses_Completed="3" troughBallPasses="1" troughBallPasses_Completed="1" diagonalPasses="2" diagonalPasses_Completed="1" backPasses="3" backPasses_Completed="2" passesIntoOffensiveArea="0" passesIntoOffensiveArea_Completed="0" passes_OwnHalf="0" passes_OwnHalf_Completed="0" passes_OpposingHalf="11" passes_OpposingHalf_Completed="7" />
+            <stats-duels duels_Defensive_OpposingHalf="0" duels_Defensive_OpposingHalf_Won="0" duels_OppoosingPenaltyArea="3" duels_OppoosingPenaltyArea_Won="1" duels_OwnPenaltyArea="0" duels_OwnPenaltyArea_Won="0" />
+            <stats-performance distance="5157.97" distance_1HT="0.0" distance_2HT="5157.97" distance_Last15Minutes="1537.11" playedTime_Last15Minutes="774.72" distance_OwnHalf="401.23" distance_OwnHalf_1HT="0.0" distance_OwnHalf_2HT="401.23" distance_OpposingHalf="4756.74" distance_OpposingHalf_1HT="0.0" distance_OpposingHalf_2HT="4756.74" distance_BallInPossesion="3211.95" distance_BallInPossesion_1HT="0.0" distance_BallInPossesion_2HT="3211.95" distance_BallNotInPossesion="1946.02" distance_BallNotInPossesion_1HT="0.0" distance_BallNotInPossesion_2HT="1946.02" maxSpeed="8.46" />
+            <stats-runs sprints="15" sprints_Distance="291.09" sprints_1HT="0" sprints_2HT="15" sprints_Forwards="14" sprints_Backwards="1" sprints_BallInPossesion="12" sprints_BallNotInPossesion="3" fastRuns="14" fastRuns_Distance="239.8" fastRuns_1HT="0" fastRuns_2HT="14" fastRuns_Forwards="13" fastRuns_Backwards="1" fastRuns_BallInPossesion="10" fastRuns_BallNotInPossesion="4" offensiveRuns="39" offensiveRuns_Distance="1811.16" offensiveRuns_1HT="0" offensiveRuns_2HT="39" />
+            <stats-goalkeeper avgDistance_Goalkeeper_EndLine="71.71" avgDistance_Goalkeeper_EndLine_AtSaves="0.0" />
+          </player-stats-tracking>
+        </player-stats>
+      </player>
+      <player>
+        <player-metadata player-key="35394" uniform-number="32">
+          <name first="Adam" last="Nemec" full="Adam Nemec" nickname="A. Nemec" extensive="Adam Nemec" />
+        </player-metadata>
+        <player-stats stats-coverage="standard" date-coverage-type="event" score="1">
+          <rating rating-type="standard" rating-value-goalie="7.1" rating-value-defenseman="6.2" rating-value-mid-fielder="7.0" rating-value-forward="7.2" />
+          <rating rating-type="grade" rating-value="2.4" />
+          <rating rating-type="index" rating-value-goalie="7.1" rating-value-defenseman="6.5" rating-value-mid-fielder="6.9" rating-value-forward="7.2" />
+          <player-stats-soccer duels-won="6" duels-won-ground="6" duels-won-header="0" duels-lost="10" duels-lost-ground="6" duels-lost-header="4" duels-won-percentage="37.5" passes-completed="10" passes-failed="5" passes-completions-percentage="66.67" passes-failed-percentage="33.33" passes="15" balls-touched="27" tracking-distance="5443.11" tracking-average-speed="7.02" tracking-max-speed="26.496" tracking-sprints="8" tracking-sprints-distance="103.44" tracking-fast-runs="13" tracking-fast-runs-distance="189.54">
+            <stats-soccer-defensive saves="0" catches-punches-crosses="0" catches-punches-corners="0" goals-against-total="0" penalty-saves="0" />
+            <stats-soccer-offensive shots-total="2" offsides="0" corner-kicks="0" crosses="0" assists-total="0" shot-assists="1" freekicks="0" miss-chance="0" throw-in="0" punt="0" shots-penalty-shot-scored="0" shots-penalty-shot-missed="0" dfl-assists-total="0" shots-total-outside-box="0" shots-total-inside-box="2" shots-foot-inside-box="2" shots-foot-outside-box="0" shots-total-header="0" />
+            <stats-soccer-foul fouls-commited="0" fouls-suffered="2" yellow-red-cards="0" red-cards="0" yellow-cards="0" />
+          </player-stats-soccer>
+          <player-stats-tracking>
+            <stats-time playedTime="2788.84" playedTime_1HT="0.0" playedTime_2HT="2788.84" />
+            <stats-ball ballTouchesTotal="27" ballTouch_OwnHalf="2" ballTouch_OpposingHalf="25" ballTouch_OwnPenaltyArea="0" ballTouch_OpposingPenaltyArea="3" ballPossessionTime="0.0" avgDistance_ToBall="23.43" />
+            <stats-passes passesTotal="15" passesTotal_Completed="10" squarePasses="2" squarePasses_Completed="1" troughBallPasses="2" troughBallPasses_Completed="2" diagonalPasses="2" diagonalPasses_Completed="1" backPasses="6" backPasses_Completed="6" passesIntoOffensiveArea="3" passesIntoOffensiveArea_Completed="3" passes_OwnHalf="1" passes_OwnHalf_Completed="0" passes_OpposingHalf="14" passes_OpposingHalf_Completed="10" />
+            <stats-duels duels_Defensive_OpposingHalf="0" duels_Defensive_OpposingHalf_Won="0" duels_OppoosingPenaltyArea="2" duels_OppoosingPenaltyArea_Won="2" duels_OwnPenaltyArea="1" duels_OwnPenaltyArea_Won="0" />
+            <stats-performance distance="5443.11" distance_1HT="0.0" distance_2HT="5443.11" distance_Last15Minutes="1908.09" playedTime_Last15Minutes="988.8" distance_OwnHalf="993.87" distance_OwnHalf_1HT="0.0" distance_OwnHalf_2HT="993.87" distance_OpposingHalf="4449.24" distance_OpposingHalf_1HT="0.0" distance_OpposingHalf_2HT="4449.24" distance_BallInPossesion="3152.28" distance_BallInPossesion_1HT="0.0" distance_BallInPossesion_2HT="3152.28" distance_BallNotInPossesion="2290.02" distance_BallNotInPossesion_1HT="0.0" distance_BallNotInPossesion_2HT="2290.02" maxSpeed="7.36" />
+            <stats-runs sprints="8" sprints_Distance="107.36" sprints_1HT="0" sprints_2HT="8" sprints_Forwards="6" sprints_Backwards="2" sprints_BallInPossesion="6" sprints_BallNotInPossesion="2" fastRuns="13" fastRuns_Distance="201.15" fastRuns_1HT="0" fastRuns_2HT="13" fastRuns_Forwards="11" fastRuns_Backwards="2" fastRuns_BallInPossesion="9" fastRuns_BallNotInPossesion="4" offensiveRuns="37" offensiveRuns_Distance="1132.51" offensiveRuns_1HT="0" offensiveRuns_2HT="37" />
+            <stats-goalkeeper avgDistance_Goalkeeper_EndLine="65.67" avgDistance_Goalkeeper_EndLine_AtSaves="0.0" />
+          </player-stats-tracking>
+        </player-stats>
+      </player>
+      <player>
+        <player-metadata player-key="37696" uniform-number="16">
+          <name first="Richard" last="Sukuta-Pasu" full="Richard Sukuta-Pasu" nickname="R. Sukuta-Pasu" extensive="Richard Sukuta-Pasu" />
+        </player-metadata>
+        <player-stats stats-coverage="standard" date-coverage-type="event" score="0">
+          <rating rating-type="standard" rating-value-goalie="6.0" rating-value-defenseman="5.2" rating-value-mid-fielder="4.9" rating-value-forward="4.4" />
+          <rating rating-type="grade" rating-value="3.8" />
+          <rating rating-type="index" rating-value-goalie="6.0" rating-value-defenseman="7.2" rating-value-mid-fielder="6.8" rating-value-forward="6.5" />
+          <player-stats-soccer duels-won="2" duels-won-ground="2" duels-won-header="0" duels-lost="0" duels-lost-ground="0" duels-lost-header="0" duels-won-percentage="100" passes-completed="2" passes-failed="1" passes-completions-percentage="66.67" passes-failed-percentage="33.33" passes="3" balls-touched="6" tracking-distance="998.44" tracking-average-speed="8.568" tracking-max-speed="27.828" tracking-sprints="4" tracking-sprints-distance="78.18" tracking-fast-runs="5" tracking-fast-runs-distance="88.07">
+            <stats-soccer-defensive saves="0" catches-punches-crosses="0" catches-punches-corners="0" goals-against-total="0" penalty-saves="0" />
+            <stats-soccer-offensive shots-total="0" offsides="0" corner-kicks="0" crosses="0" assists-total="0" shot-assists="0" freekicks="0" miss-chance="0" throw-in="0" punt="0" shots-penalty-shot-scored="0" shots-penalty-shot-missed="0" dfl-assists-total="0" shots-total-outside-box="0" shots-total-inside-box="0" shots-foot-inside-box="0" shots-foot-outside-box="0" shots-total-header="0" />
+            <stats-soccer-foul fouls-commited="0" fouls-suffered="0" yellow-red-cards="0" red-cards="0" yellow-cards="0" />
+          </player-stats-soccer>
+          <player-stats-tracking>
+            <stats-time playedTime="418.64" playedTime_1HT="0.0" playedTime_2HT="418.64" />
+            <stats-ball ballTouchesTotal="6" ballTouch_OwnHalf="4" ballTouch_OpposingHalf="2" ballTouch_OwnPenaltyArea="0" ballTouch_OpposingPenaltyArea="0" ballPossessionTime="0.0" avgDistance_ToBall="24.8" />
+            <stats-passes passesTotal="3" passesTotal_Completed="2" squarePasses="1" squarePasses_Completed="0" troughBallPasses="0" troughBallPasses_Completed="0" diagonalPasses="1" diagonalPasses_Completed="1" backPasses="1" backPasses_Completed="1" passesIntoOffensiveArea="0" passesIntoOffensiveArea_Completed="0" passes_OwnHalf="2" passes_OwnHalf_Completed="2" passes_OpposingHalf="1" passes_OpposingHalf_Completed="0" />
+            <stats-duels duels_Defensive_OpposingHalf="0" duels_Defensive_OpposingHalf_Won="0" duels_OppoosingPenaltyArea="0" duels_OppoosingPenaltyArea_Won="0" duels_OwnPenaltyArea="0" duels_OwnPenaltyArea_Won="0" />
+            <stats-performance distance="998.44" distance_1HT="0.0" distance_2HT="998.44" distance_Last15Minutes="0.0" playedTime_Last15Minutes="418.6" distance_OwnHalf="443.72" distance_OwnHalf_1HT="0.0" distance_OwnHalf_2HT="443.72" distance_OpposingHalf="554.72" distance_OpposingHalf_1HT="0.0" distance_OpposingHalf_2HT="554.72" distance_BallInPossesion="538.44" distance_BallInPossesion_1HT="0.0" distance_BallInPossesion_2HT="538.44" distance_BallNotInPossesion="458.26" distance_BallNotInPossesion_1HT="0.0" distance_BallNotInPossesion_2HT="458.26" maxSpeed="7.73" />
+            <stats-runs sprints="4" sprints_Distance="79.99" sprints_1HT="0" sprints_2HT="4" sprints_Forwards="3" sprints_Backwards="1" sprints_BallInPossesion="3" sprints_BallNotInPossesion="1" fastRuns="5" fastRuns_Distance="91.06" fastRuns_1HT="0" fastRuns_2HT="5" fastRuns_Forwards="2" fastRuns_Backwards="3" fastRuns_BallInPossesion="2" fastRuns_BallNotInPossesion="3" offensiveRuns="3" offensiveRuns_Distance="164.56" offensiveRuns_1HT="0" offensiveRuns_2HT="3" />
+            <stats-goalkeeper avgDistance_Goalkeeper_EndLine="58.83" avgDistance_Goalkeeper_EndLine_AtSaves="0.0" />
+          </player-stats-tracking>
+        </player-stats>
+      </player>
+    </team>
+    <team>
+      <team-metadata id="O_44" team-key="44">
+        <name full="Hannover 96" nickname="Hannover" />
+      </team-metadata>
+      <player>
+        <player-metadata player-key="34462" uniform-number="1">
+          <name first="Ron-Robert" last="Zieler" full="Ron-Robert Zieler" nickname="R. Zieler" extensive="Ron-Robert Zieler" />
+        </player-metadata>
+        <player-stats stats-coverage="standard" date-coverage-type="event" score="0">
+          <rating rating-type="standard" rating-value-goalie="6.8" rating-value-defenseman="4.8" rating-value-mid-fielder="4.5" rating-value-forward="4.2" />
+          <rating rating-type="grade" rating-value="2.6" />
+          <rating rating-type="index" rating-value-goalie="6.8" rating-value-defenseman="3.4" rating-value-mid-fielder="1.7" rating-value-forward="1.2" />
+          <player-stats-soccer duels-won="0" duels-won-ground="0" duels-won-header="0" duels-lost="0" duels-lost-ground="0" duels-lost-header="0" duels-won-percentage="0" passes-completed="3" passes-failed="8" passes-completions-percentage="27.27" passes-failed-percentage="72.73" passes="11" balls-touched="57" tracking-distance="6084.44" tracking-average-speed="3.96" tracking-max-speed="29.304" tracking-sprints="0" tracking-sprints-distance="0.00" tracking-fast-runs="4" tracking-fast-runs-distance="31.18">
+            <stats-soccer-defensive saves="5" catches-punches-crosses="1" catches-punches-corners="0" goals-against-total="1" penalty-saves="0" />
+            <stats-soccer-offensive shots-total="0" offsides="0" corner-kicks="0" crosses="0" assists-total="0" shot-assists="0" freekicks="10" miss-chance="0" throw-in="0" punt="4" shots-penalty-shot-scored="0" shots-penalty-shot-missed="0" dfl-assists-total="0" shots-total-outside-box="0" shots-total-inside-box="0" shots-foot-inside-box="0" shots-foot-outside-box="0" shots-total-header="0" />
+            <stats-soccer-foul fouls-commited="0" fouls-suffered="0" yellow-red-cards="0" red-cards="0" yellow-cards="0" />
+          </player-stats-soccer>
+          <player-stats-tracking>
+            <stats-time playedTime="5542.76" playedTime_1HT="2753.92" playedTime_2HT="2788.84" />
+            <stats-ball ballTouchesTotal="57" ballTouch_OwnHalf="57" ballTouch_OpposingHalf="0" ballTouch_OwnPenaltyArea="47" ballTouch_OpposingPenaltyArea="0" ballPossessionTime="0.0" avgDistance_ToBall="41.57" />
+            <stats-passes passesTotal="11" passesTotal_Completed="3" squarePasses="1" squarePasses_Completed="1" troughBallPasses="6" troughBallPasses_Completed="0" diagonalPasses="1" diagonalPasses_Completed="0" backPasses="0" backPasses_Completed="0" passesIntoOffensiveArea="0" passesIntoOffensiveArea_Completed="0" passes_OwnHalf="11" passes_OwnHalf_Completed="3" passes_OpposingHalf="0" passes_OpposingHalf_Completed="0" />
+            <stats-duels duels_Defensive_OpposingHalf="0" duels_Defensive_OpposingHalf_Won="0" duels_OppoosingPenaltyArea="0" duels_OppoosingPenaltyArea_Won="0" duels_OwnPenaltyArea="0" duels_OwnPenaltyArea_Won="0" />
+            <stats-performance distance="6084.44" distance_1HT="3041.01" distance_2HT="3043.43" distance_Last15Minutes="1111.33" playedTime_Last15Minutes="988.8" distance_OwnHalf="6084.44" distance_OwnHalf_1HT="3041.01" distance_OwnHalf_2HT="3043.43" distance_OpposingHalf="0.0" distance_OpposingHalf_1HT="0.0" distance_OpposingHalf_2HT="0.0" distance_BallInPossesion="2431.2" distance_BallInPossesion_1HT="1125.37" distance_BallInPossesion_2HT="1305.83" distance_BallNotInPossesion="3651.37" distance_BallNotInPossesion_1HT="1915.33" distance_BallNotInPossesion_2HT="1736.03" maxSpeed="8.14" />
+            <stats-runs sprints="0" sprints_Distance="0.0" sprints_1HT="0" sprints_2HT="0" sprints_Forwards="0" sprints_Backwards="0" sprints_BallInPossesion="0" sprints_BallNotInPossesion="0" fastRuns="4" fastRuns_Distance="31.96" fastRuns_1HT="3" fastRuns_2HT="1" fastRuns_Forwards="1" fastRuns_Backwards="3" fastRuns_BallInPossesion="1" fastRuns_BallNotInPossesion="3" offensiveRuns="0" offensiveRuns_Distance="0.0" offensiveRuns_1HT="0" offensiveRuns_2HT="0" />
+            <stats-goalkeeper avgDistance_Goalkeeper_EndLine="9.74" avgDistance_Goalkeeper_EndLine_AtSaves="0.0" />
+          </player-stats-tracking>
+        </player-stats>
+      </player>
+      <player>
+        <player-metadata player-key="19187" uniform-number="19">
+          <name first="Christian" last="Schulz" full="Christian Schulz" nickname="C. Schulz" extensive="Christian Schulz" />
+        </player-metadata>
+        <player-stats stats-coverage="standard" date-coverage-type="event" score="0">
+          <rating rating-type="standard" rating-value-goalie="6.0" rating-value-defenseman="5.4" rating-value-mid-fielder="6.3" rating-value-forward="5.3" />
+          <rating rating-type="grade" rating-value="3.3" />
+          <rating rating-type="index" rating-value-goalie="6.0" rating-value-defenseman="6.5" rating-value-mid-fielder="6.6" rating-value-forward="6.0" />
+          <player-stats-soccer duels-won="11" duels-won-ground="3" duels-won-header="8" duels-lost="8" duels-lost-ground="7" duels-lost-header="1" duels-won-percentage="57.89" passes-completed="13" passes-failed="9" passes-completions-percentage="59.09" passes-failed-percentage="40.91" passes="22" balls-touched="49" tracking-distance="12002.14" tracking-average-speed="7.812" tracking-max-speed="27.54" tracking-sprints="17" tracking-sprints-distance="248.11" tracking-fast-runs="36" tracking-fast-runs-distance="521.41">
+            <stats-soccer-defensive saves="0" catches-punches-crosses="0" catches-punches-corners="0" goals-against-total="1" penalty-saves="0" />
+            <stats-soccer-offensive shots-total="0" offsides="0" corner-kicks="0" crosses="2" assists-total="0" shot-assists="1" freekicks="2" miss-chance="0" throw-in="5" punt="0" shots-penalty-shot-scored="0" shots-penalty-shot-missed="0" dfl-assists-total="0" shots-total-outside-box="0" shots-total-inside-box="0" shots-foot-inside-box="0" shots-foot-outside-box="0" shots-total-header="0" />
+            <stats-soccer-foul fouls-commited="3" fouls-suffered="0" yellow-red-cards="0" red-cards="0" yellow-cards="0" />
+          </player-stats-soccer>
+          <player-stats-tracking>
+            <stats-time playedTime="5542.76" playedTime_1HT="2753.92" playedTime_2HT="2788.84" />
+            <stats-ball ballTouchesTotal="49" ballTouch_OwnHalf="36" ballTouch_OpposingHalf="13" ballTouch_OwnPenaltyArea="1" ballTouch_OpposingPenaltyArea="0" ballPossessionTime="0.0" avgDistance_ToBall="27.66" />
+            <stats-passes passesTotal="22" passesTotal_Completed="13" squarePasses="2" squarePasses_Completed="2" troughBallPasses="10" troughBallPasses_Completed="4" diagonalPasses="5" diagonalPasses_Completed="3" backPasses="4" backPasses_Completed="4" passesIntoOffensiveArea="2" passesIntoOffensiveArea_Completed="1" passes_OwnHalf="19" passes_OwnHalf_Completed="10" passes_OpposingHalf="3" passes_OpposingHalf_Completed="3" />
+            <stats-duels duels_Defensive_OpposingHalf="0" duels_Defensive_OpposingHalf_Won="0" duels_OppoosingPenaltyArea="0" duels_OppoosingPenaltyArea_Won="0" duels_OwnPenaltyArea="3" duels_OwnPenaltyArea_Won="2" />
+            <stats-performance distance="12002.14" distance_1HT="6096.36" distance_2HT="5905.78" distance_Last15Minutes="2086.41" playedTime_Last15Minutes="988.8" distance_OwnHalf="9884.99" distance_OwnHalf_1HT="4962.8" distance_OwnHalf_2HT="4922.2" distance_OpposingHalf="2117.15" distance_OpposingHalf_1HT="1133.56" distance_OpposingHalf_2HT="983.59" distance_BallInPossesion="4769.19" distance_BallInPossesion_1HT="2351.97" distance_BallInPossesion_2HT="2417.22" distance_BallNotInPossesion="7230.26" distance_BallNotInPossesion_1HT="3743.44" distance_BallNotInPossesion_2HT="3486.82" maxSpeed="7.65" />
+            <stats-runs sprints="17" sprints_Distance="251.97" sprints_1HT="10" sprints_2HT="7" sprints_Forwards="4" sprints_Backwards="13" sprints_BallInPossesion="4" sprints_BallNotInPossesion="13" fastRuns="36" fastRuns_Distance="533.66" fastRuns_1HT="15" fastRuns_2HT="21" fastRuns_Forwards="7" fastRuns_Backwards="29" fastRuns_BallInPossesion="11" fastRuns_BallNotInPossesion="25" offensiveRuns="12" offensiveRuns_Distance="371.26" offensiveRuns_1HT="8" offensiveRuns_2HT="4" />
+            <stats-goalkeeper avgDistance_Goalkeeper_EndLine="38.59" avgDistance_Goalkeeper_EndLine_AtSaves="0.0" />
+          </player-stats-tracking>
+        </player-stats>
+      </player>
+      <player>
+        <player-metadata player-key="33151" uniform-number="3">
+          <name first="Karim" last="Haggui" full="Karim Haggui" nickname="K. Haggui" extensive="Karim Haggui" />
+        </player-metadata>
+        <player-stats stats-coverage="standard" date-coverage-type="event" score="0">
+          <rating rating-type="standard" rating-value-goalie="6.0" rating-value-defenseman="7.8" rating-value-mid-fielder="7.5" rating-value-forward="5.7" />
+          <rating rating-type="grade" rating-value="2.1" />
+          <rating rating-type="index" rating-value-goalie="6.0" rating-value-defenseman="8.1" rating-value-mid-fielder="7.5" rating-value-forward="5.8" />
+          <player-stats-soccer duels-won="18" duels-won-ground="9" duels-won-header="9" duels-lost="5" duels-lost-ground="5" duels-lost-header="0" duels-won-percentage="78.26" passes-completed="18" passes-failed="6" passes-completions-percentage="75" passes-failed-percentage="25" passes="24" balls-touched="45" tracking-distance="10995.60" tracking-average-speed="7.128" tracking-max-speed="28.548" tracking-sprints="15" tracking-sprints-distance="242.36" tracking-fast-runs="38" tracking-fast-runs-distance="482.36">
+            <stats-soccer-defensive saves="0" catches-punches-crosses="0" catches-punches-corners="0" goals-against-total="1" penalty-saves="0" />
+            <stats-soccer-offensive shots-total="0" offsides="0" corner-kicks="0" crosses="0" assists-total="0" shot-assists="0" freekicks="1" miss-chance="0" throw-in="0" punt="0" shots-penalty-shot-scored="0" shots-penalty-shot-missed="0" dfl-assists-total="0" shots-total-outside-box="0" shots-total-inside-box="0" shots-foot-inside-box="0" shots-foot-outside-box="0" shots-total-header="0" />
+            <stats-soccer-foul fouls-commited="1" fouls-suffered="1" yellow-red-cards="0" red-cards="0" yellow-cards="0" />
+          </player-stats-soccer>
+          <player-stats-tracking>
+            <stats-time playedTime="5542.76" playedTime_1HT="2753.92" playedTime_2HT="2788.84" />
+            <stats-ball ballTouchesTotal="45" ballTouch_OwnHalf="43" ballTouch_OpposingHalf="2" ballTouch_OwnPenaltyArea="10" ballTouch_OpposingPenaltyArea="0" ballPossessionTime="0.0" avgDistance_ToBall="24.59" />
+            <stats-passes passesTotal="24" passesTotal_Completed="18" squarePasses="2" squarePasses_Completed="2" troughBallPasses="7" troughBallPasses_Completed="4" diagonalPasses="10" diagonalPasses_Completed="8" backPasses="3" backPasses_Completed="3" passesIntoOffensiveArea="1" passesIntoOffensiveArea_Completed="1" passes_OwnHalf="23" passes_OwnHalf_Completed="17" passes_OpposingHalf="1" passes_OpposingHalf_Completed="1" />
+            <stats-duels duels_Defensive_OpposingHalf="0" duels_Defensive_OpposingHalf_Won="0" duels_OppoosingPenaltyArea="0" duels_OppoosingPenaltyArea_Won="0" duels_OwnPenaltyArea="6" duels_OwnPenaltyArea_Won="3" />
+            <stats-performance distance="10995.6" distance_1HT="5516.8" distance_2HT="5478.8" distance_Last15Minutes="1858.67" playedTime_Last15Minutes="988.8" distance_OwnHalf="10185.7" distance_OwnHalf_1HT="5138.42" distance_OwnHalf_2HT="5047.28" distance_OpposingHalf="809.9" distance_OpposingHalf_1HT="378.38" distance_OpposingHalf_2HT="431.52" distance_BallInPossesion="4004.08" distance_BallInPossesion_1HT="1960.87" distance_BallInPossesion_2HT="2043.21" distance_BallNotInPossesion="6990.69" distance_BallNotInPossesion_1HT="3555.53" distance_BallNotInPossesion_2HT="3435.16" maxSpeed="7.93" />
+            <stats-runs sprints="15" sprints_Distance="246.13" sprints_1HT="6" sprints_2HT="9" sprints_Forwards="1" sprints_Backwards="14" sprints_BallInPossesion="1" sprints_BallNotInPossesion="14" fastRuns="38" fastRuns_Distance="493.37" fastRuns_1HT="22" fastRuns_2HT="16" fastRuns_Forwards="9" fastRuns_Backwards="29" fastRuns_BallInPossesion="7" fastRuns_BallNotInPossesion="31" offensiveRuns="5" offensiveRuns_Distance="243.62" offensiveRuns_1HT="2" offensiveRuns_2HT="3" />
+            <stats-goalkeeper avgDistance_Goalkeeper_EndLine="33.85" avgDistance_Goalkeeper_EndLine_AtSaves="0.0" />
+          </player-stats-tracking>
+        </player-stats>
+      </player>
+      <player>
+        <player-metadata player-key="18578" uniform-number="4">
+          <name first="Emanuel" last="Pogatetz" full="Emanuel Pogatetz" nickname="E. Pogatetz" extensive="Emanuel Pogatetz" />
+        </player-metadata>
+        <player-stats stats-coverage="standard" date-coverage-type="event" score="0">
+          <rating rating-type="standard" rating-value-goalie="6.1" rating-value-defenseman="5.9" rating-value-mid-fielder="6.4" rating-value-forward="5.3" />
+          <rating rating-type="grade" rating-value="3.0" />
+          <rating rating-type="index" rating-value-goalie="6.1" rating-value-defenseman="6.0" rating-value-mid-fielder="6.0" rating-value-forward="5.1" />
+          <player-stats-soccer duels-won="10" duels-won-ground="3" duels-won-header="7" duels-lost="6" duels-lost-ground="3" duels-lost-header="3" duels-won-percentage="62.5" passes-completed="13" passes-failed="2" passes-completions-percentage="86.67" passes-failed-percentage="13.33" passes="15" balls-touched="37" tracking-distance="10540.58" tracking-average-speed="6.84" tracking-max-speed="29.052" tracking-sprints="13" tracking-sprints-distance="211.28" tracking-fast-runs="38" tracking-fast-runs-distance="452.69">
+            <stats-soccer-defensive saves="0" catches-punches-crosses="0" catches-punches-corners="0" goals-against-total="1" penalty-saves="0" />
+            <stats-soccer-offensive shots-total="1" offsides="0" corner-kicks="0" crosses="0" assists-total="0" shot-assists="0" freekicks="1" miss-chance="0" throw-in="0" punt="0" shots-penalty-shot-scored="0" shots-penalty-shot-missed="0" dfl-assists-total="0" shots-total-outside-box="0" shots-total-inside-box="1" shots-foot-inside-box="0" shots-foot-outside-box="0" shots-total-header="1" />
+            <stats-soccer-foul fouls-commited="0" fouls-suffered="0" yellow-red-cards="0" red-cards="0" yellow-cards="0" />
+          </player-stats-soccer>
+          <player-stats-tracking>
+            <stats-time playedTime="5542.76" playedTime_1HT="2753.92" playedTime_2HT="2788.84" />
+            <stats-ball ballTouchesTotal="37" ballTouch_OwnHalf="34" ballTouch_OpposingHalf="3" ballTouch_OwnPenaltyArea="8" ballTouch_OpposingPenaltyArea="1" ballPossessionTime="0.0" avgDistance_ToBall="25.26" />
+            <stats-passes passesTotal="15" passesTotal_Completed="13" squarePasses="6" squarePasses_Completed="5" troughBallPasses="3" troughBallPasses_Completed="2" diagonalPasses="5" diagonalPasses_Completed="5" backPasses="1" backPasses_Completed="1" passesIntoOffensiveArea="0" passesIntoOffensiveArea_Completed="0" passes_OwnHalf="15" passes_OwnHalf_Completed="13" passes_OpposingHalf="0" passes_OpposingHalf_Completed="0" />
+            <stats-duels duels_Defensive_OpposingHalf="0" duels_Defensive_OpposingHalf_Won="0" duels_OppoosingPenaltyArea="1" duels_OppoosingPenaltyArea_Won="1" duels_OwnPenaltyArea="4" duels_OwnPenaltyArea_Won="3" />
+            <stats-performance distance="10540.58" distance_1HT="5264.54" distance_2HT="5276.04" distance_Last15Minutes="1777.97" playedTime_Last15Minutes="988.8" distance_OwnHalf="9813.94" distance_OwnHalf_1HT="4882.35" distance_OwnHalf_2HT="4931.59" distance_OpposingHalf="726.65" distance_OpposingHalf_1HT="382.19" distance_OpposingHalf_2HT="344.46" distance_BallInPossesion="3865.24" distance_BallInPossesion_1HT="1939.42" distance_BallInPossesion_2HT="1925.82" distance_BallNotInPossesion="6673.5" distance_BallNotInPossesion_1HT="3324.78" distance_BallNotInPossesion_2HT="3348.72" maxSpeed="8.07" />
+            <stats-runs sprints="13" sprints_Distance="216.27" sprints_1HT="6" sprints_2HT="7" sprints_Forwards="1" sprints_Backwards="12" sprints_BallInPossesion="1" sprints_BallNotInPossesion="12" fastRuns="38" fastRuns_Distance="468.24" fastRuns_1HT="16" fastRuns_2HT="22" fastRuns_Forwards="3" fastRuns_Backwards="35" fastRuns_BallInPossesion="7" fastRuns_BallNotInPossesion="31" offensiveRuns="3" offensiveRuns_Distance="186.21" offensiveRuns_1HT="1" offensiveRuns_2HT="2" />
+            <stats-goalkeeper avgDistance_Goalkeeper_EndLine="33.49" avgDistance_Goalkeeper_EndLine_AtSaves="0.0" />
+          </player-stats-tracking>
+        </player-stats>
+      </player>
+      <player>
+        <player-metadata player-key="23761" uniform-number="23">
+          <name first="Sofian" last="Chahed" full="Sofian Chahed" nickname="S. Chahed" extensive="Sofian Chahed" />
+        </player-metadata>
+        <player-stats stats-coverage="standard" date-coverage-type="event" score="0">
+          <rating rating-type="standard" rating-value-goalie="6.6" rating-value-defenseman="7.7" rating-value-mid-fielder="7.7" rating-value-forward="6.7" />
+          <rating rating-type="grade" rating-value="2.1" />
+          <rating rating-type="index" rating-value-goalie="6.6" rating-value-defenseman="8.1" rating-value-mid-fielder="7.8" rating-value-forward="6.9" />
+          <player-stats-soccer duels-won="11" duels-won-ground="6" duels-won-header="5" duels-lost="4" duels-lost-ground="2" duels-lost-header="2" duels-won-percentage="73.33" passes-completed="24" passes-failed="14" passes-completions-percentage="63.16" passes-failed-percentage="36.84" passes="38" balls-touched="71" tracking-distance="11526.67" tracking-average-speed="7.488" tracking-max-speed="32.148" tracking-sprints="18" tracking-sprints-distance="347.23" tracking-fast-runs="41" tracking-fast-runs-distance="522.47">
+            <stats-soccer-defensive saves="0" catches-punches-crosses="0" catches-punches-corners="0" goals-against-total="1" penalty-saves="0" />
+            <stats-soccer-offensive shots-total="1" offsides="0" corner-kicks="0" crosses="2" assists-total="1" shot-assists="1" freekicks="0" miss-chance="0" throw-in="16" punt="0" shots-penalty-shot-scored="0" shots-penalty-shot-missed="0" dfl-assists-total="0" shots-total-outside-box="1" shots-total-inside-box="0" shots-foot-inside-box="0" shots-foot-outside-box="1" shots-total-header="0" />
+            <stats-soccer-foul fouls-commited="0" fouls-suffered="1" yellow-red-cards="0" red-cards="0" yellow-cards="0" />
+          </player-stats-soccer>
+          <player-stats-tracking>
+            <stats-time playedTime="5542.76" playedTime_1HT="2753.92" playedTime_2HT="2788.84" />
+            <stats-ball ballTouchesTotal="71" ballTouch_OwnHalf="53" ballTouch_OpposingHalf="18" ballTouch_OwnPenaltyArea="4" ballTouch_OpposingPenaltyArea="0" ballPossessionTime="0.0" avgDistance_ToBall="26.71" />
+            <stats-passes passesTotal="38" passesTotal_Completed="24" squarePasses="5" squarePasses_Completed="5" troughBallPasses="14" troughBallPasses_Completed="6" diagonalPasses="10" diagonalPasses_Completed="6" backPasses="6" backPasses_Completed="6" passesIntoOffensiveArea="4" passesIntoOffensiveArea_Completed="2" passes_OwnHalf="30" passes_OwnHalf_Completed="17" passes_OpposingHalf="8" passes_OpposingHalf_Completed="7" />
+            <stats-duels duels_Defensive_OpposingHalf="0" duels_Defensive_OpposingHalf_Won="0" duels_OppoosingPenaltyArea="0" duels_OppoosingPenaltyArea_Won="0" duels_OwnPenaltyArea="2" duels_OwnPenaltyArea_Won="1" />
+            <stats-performance distance="11526.67" distance_1HT="5661.66" distance_2HT="5865.01" distance_Last15Minutes="2171.47" playedTime_Last15Minutes="988.8" distance_OwnHalf="9858.19" distance_OwnHalf_1HT="4901.07" distance_OwnHalf_2HT="4957.12" distance_OpposingHalf="1668.49" distance_OpposingHalf_1HT="760.59" distance_OpposingHalf_2HT="907.89" distance_BallInPossesion="4282.58" distance_BallInPossesion_1HT="1975.95" distance_BallInPossesion_2HT="2306.63" distance_BallNotInPossesion="7242.61" distance_BallNotInPossesion_1HT="3685.35" distance_BallNotInPossesion_2HT="3557.26" maxSpeed="8.93" />
+            <stats-runs sprints="18" sprints_Distance="353.23" sprints_1HT="7" sprints_2HT="11" sprints_Forwards="3" sprints_Backwards="15" sprints_BallInPossesion="9" sprints_BallNotInPossesion="9" fastRuns="41" fastRuns_Distance="537.92" fastRuns_1HT="22" fastRuns_2HT="19" fastRuns_Forwards="12" fastRuns_Backwards="29" fastRuns_BallInPossesion="8" fastRuns_BallNotInPossesion="33" offensiveRuns="9" offensiveRuns_Distance="198.46" offensiveRuns_1HT="5" offensiveRuns_2HT="4" />
+            <stats-goalkeeper avgDistance_Goalkeeper_EndLine="36.99" avgDistance_Goalkeeper_EndLine_AtSaves="0.0" />
+          </player-stats-tracking>
+        </player-stats>
+      </player>
+      <player>
+        <player-metadata player-key="15728" uniform-number="7">
+          <name first="Sergio" last="Pinto" full="Sergio Pinto" nickname="S. Pinto" extensive="Sergio Pinto" />
+        </player-metadata>
+        <player-stats stats-coverage="standard" date-coverage-type="event" score="0">
+          <rating rating-type="standard" rating-value-goalie="6.0" rating-value-defenseman="6.6" rating-value-mid-fielder="6.5" rating-value-forward="5.2" />
+          <rating rating-type="grade" rating-value="2.7" />
+          <rating rating-type="index" rating-value-goalie="6.0" rating-value-defenseman="7.0" rating-value-mid-fielder="6.6" rating-value-forward="5.7" />
+          <player-stats-soccer duels-won="10" duels-won-ground="7" duels-won-header="3" duels-lost="3" duels-lost-ground="3" duels-lost-header="0" duels-won-percentage="76.92" passes-completed="27" passes-failed="14" passes-completions-percentage="65.85" passes-failed-percentage="34.15" passes="41" balls-touched="62" tracking-distance="11456.65" tracking-average-speed="7.452" tracking-max-speed="29.052" tracking-sprints="18" tracking-sprints-distance="351.52" tracking-fast-runs="41" tracking-fast-runs-distance="553.23">
+            <stats-soccer-defensive saves="0" catches-punches-crosses="0" catches-punches-corners="0" goals-against-total="1" penalty-saves="0" />
+            <stats-soccer-offensive shots-total="0" offsides="0" corner-kicks="0" crosses="0" assists-total="0" shot-assists="0" freekicks="2" miss-chance="0" throw-in="0" punt="0" shots-penalty-shot-scored="0" shots-penalty-shot-missed="0" dfl-assists-total="0" shots-total-outside-box="0" shots-total-inside-box="0" shots-foot-inside-box="0" shots-foot-outside-box="0" shots-total-header="0" />
+            <stats-soccer-foul fouls-commited="1" fouls-suffered="2" yellow-red-cards="0" red-cards="0" yellow-cards="0" />
+          </player-stats-soccer>
+          <player-stats-tracking>
+            <stats-time playedTime="5542.76" playedTime_1HT="2753.92" playedTime_2HT="2788.84" />
+            <stats-ball ballTouchesTotal="62" ballTouch_OwnHalf="41" ballTouch_OpposingHalf="21" ballTouch_OwnPenaltyArea="4" ballTouch_OpposingPenaltyArea="0" ballPossessionTime="0.0" avgDistance_ToBall="20.12" />
+            <stats-passes passesTotal="41" passesTotal_Completed="27" squarePasses="6" squarePasses_Completed="3" troughBallPasses="12" troughBallPasses_Completed="6" diagonalPasses="14" diagonalPasses_Completed="12" backPasses="7" backPasses_Completed="6" passesIntoOffensiveArea="5" passesIntoOffensiveArea_Completed="1" passes_OwnHalf="25" passes_OwnHalf_Completed="16" passes_OpposingHalf="16" passes_OpposingHalf_Completed="11" />
+            <stats-duels duels_Defensive_OpposingHalf="0" duels_Defensive_OpposingHalf_Won="0" duels_OppoosingPenaltyArea="0" duels_OppoosingPenaltyArea_Won="0" duels_OwnPenaltyArea="1" duels_OwnPenaltyArea_Won="1" />
+            <stats-performance distance="11456.66" distance_1HT="5687.53" distance_2HT="5769.13" distance_Last15Minutes="2044.55" playedTime_Last15Minutes="988.8" distance_OwnHalf="8601.18" distance_OwnHalf_1HT="4226.82" distance_OwnHalf_2HT="4374.36" distance_OpposingHalf="2855.48" distance_OpposingHalf_1HT="1460.71" distance_OpposingHalf_2HT="1394.77" distance_BallInPossesion="4271.65" distance_BallInPossesion_1HT="2027.64" distance_BallInPossesion_2HT="2244.01" distance_BallNotInPossesion="7183.53" distance_BallNotInPossesion_1HT="3659.08" distance_BallNotInPossesion_2HT="3524.45" maxSpeed="8.07" />
+            <stats-runs sprints="18" sprints_Distance="357.4" sprints_1HT="7" sprints_2HT="11" sprints_Forwards="4" sprints_Backwards="14" sprints_BallInPossesion="4" sprints_BallNotInPossesion="14" fastRuns="42" fastRuns_Distance="605.83" fastRuns_1HT="19" fastRuns_2HT="23" fastRuns_Forwards="11" fastRuns_Backwards="31" fastRuns_BallInPossesion="13" fastRuns_BallNotInPossesion="29" offensiveRuns="6" offensiveRuns_Distance="72.31" offensiveRuns_1HT="2" offensiveRuns_2HT="4" />
+            <stats-goalkeeper avgDistance_Goalkeeper_EndLine="42.2" avgDistance_Goalkeeper_EndLine_AtSaves="0.0" />
+          </player-stats-tracking>
+        </player-stats>
+      </player>
+      <player>
+        <player-metadata player-key="35282" uniform-number="28">
+          <name first="Lars" last="Stindl" full="Lars Stindl" nickname="L. Stindl" extensive="Lars Stindl" />
+        </player-metadata>
+        <player-stats stats-coverage="standard" date-coverage-type="event" score="0">
+          <rating rating-type="standard" rating-value-goalie="6.0" rating-value-defenseman="5.4" rating-value-mid-fielder="6.7" rating-value-forward="6.3" />
+          <rating rating-type="grade" rating-value="2.6" />
+          <rating rating-type="index" rating-value-goalie="6.0" rating-value-defenseman="6.8" rating-value-mid-fielder="7.3" rating-value-forward="7.0" />
+          <player-stats-soccer duels-won="13" duels-won-ground="10" duels-won-header="3" duels-lost="12" duels-lost-ground="5" duels-lost-header="7" duels-won-percentage="52" passes-completed="37" passes-failed="5" passes-completions-percentage="88.1" passes-failed-percentage="11.9" passes="42" balls-touched="61" tracking-distance="12735.40" tracking-average-speed="8.28" tracking-max-speed="29.844" tracking-sprints="21" tracking-sprints-distance="368.90" tracking-fast-runs="60" tracking-fast-runs-distance="949.86">
+            <stats-soccer-defensive saves="0" catches-punches-crosses="0" catches-punches-corners="0" goals-against-total="1" penalty-saves="0" />
+            <stats-soccer-offensive shots-total="0" offsides="0" corner-kicks="0" crosses="1" assists-total="0" shot-assists="3" freekicks="1" miss-chance="0" throw-in="1" punt="0" shots-penalty-shot-scored="0" shots-penalty-shot-missed="0" dfl-assists-total="0" shots-total-outside-box="0" shots-total-inside-box="0" shots-foot-inside-box="0" shots-foot-outside-box="0" shots-total-header="0" />
+            <stats-soccer-foul fouls-commited="0" fouls-suffered="2" yellow-red-cards="0" red-cards="0" yellow-cards="0" />
+          </player-stats-soccer>
+          <player-stats-tracking>
+            <stats-time playedTime="5542.76" playedTime_1HT="2753.92" playedTime_2HT="2788.84" />
+            <stats-ball ballTouchesTotal="61" ballTouch_OwnHalf="24" ballTouch_OpposingHalf="37" ballTouch_OwnPenaltyArea="0" ballTouch_OpposingPenaltyArea="3" ballPossessionTime="0.0" avgDistance_ToBall="24.8" />
+            <stats-passes passesTotal="42" passesTotal_Completed="37" squarePasses="8" squarePasses_Completed="8" troughBallPasses="4" troughBallPasses_Completed="3" diagonalPasses="11" diagonalPasses_Completed="9" backPasses="19" backPasses_Completed="17" passesIntoOffensiveArea="4" passesIntoOffensiveArea_Completed="3" passes_OwnHalf="11" passes_OwnHalf_Completed="10" passes_OpposingHalf="31" passes_OpposingHalf_Completed="27" />
+            <stats-duels duels_Defensive_OpposingHalf="0" duels_Defensive_OpposingHalf_Won="0" duels_OppoosingPenaltyArea="0" duels_OppoosingPenaltyArea_Won="0" duels_OwnPenaltyArea="1" duels_OwnPenaltyArea_Won="1" />
+            <stats-performance distance="12735.42" distance_1HT="6252.78" distance_2HT="6482.64" distance_Last15Minutes="2463.29" playedTime_Last15Minutes="988.8" distance_OwnHalf="6813.22" distance_OwnHalf_1HT="3322.63" distance_OwnHalf_2HT="3490.59" distance_OpposingHalf="5922.2" distance_OpposingHalf_1HT="2930.15" distance_OpposingHalf_2HT="2992.05" distance_BallInPossesion="5104.32" distance_BallInPossesion_1HT="2326.72" distance_BallInPossesion_2HT="2777.6" distance_BallNotInPossesion="7630.41" distance_BallNotInPossesion_1HT="3925.78" distance_BallNotInPossesion_2HT="3704.63" maxSpeed="8.29" />
+            <stats-runs sprints="21" sprints_Distance="377.21" sprints_1HT="10" sprints_2HT="11" sprints_Forwards="11" sprints_Backwards="10" sprints_BallInPossesion="9" sprints_BallNotInPossesion="12" fastRuns="60" fastRuns_Distance="966.21" fastRuns_1HT="29" fastRuns_2HT="31" fastRuns_Forwards="27" fastRuns_Backwards="33" fastRuns_BallInPossesion="24" fastRuns_BallNotInPossesion="36" offensiveRuns="33" offensiveRuns_Distance="1375.16" offensiveRuns_1HT="14" offensiveRuns_2HT="19" />
+            <stats-goalkeeper avgDistance_Goalkeeper_EndLine="50.19" avgDistance_Goalkeeper_EndLine_AtSaves="0.0" />
+          </player-stats-tracking>
+        </player-stats>
+      </player>
+      <player>
+        <player-metadata player-key="33691" uniform-number="33">
+          <name first="Manuel" last="Schmiedebach" full="Manuel Schmiedebach" nickname="M. Schmiedebach" extensive="Manuel Schmiedebach" />
+        </player-metadata>
+        <player-stats stats-coverage="standard" date-coverage-type="event" score="0">
+          <rating rating-type="standard" rating-value-goalie="6.1" rating-value-defenseman="3.7" rating-value-mid-fielder="4.4" rating-value-forward="5.4" />
+          <rating rating-type="grade" rating-value="3.8" />
+          <rating rating-type="index" rating-value-goalie="6.1" rating-value-defenseman="4.5" rating-value-mid-fielder="5.4" rating-value-forward="6.3" />
+          <player-stats-soccer duels-won="10" duels-won-ground="10" duels-won-header="0" duels-lost="15" duels-lost-ground="12" duels-lost-header="3" duels-won-percentage="40" passes-completed="26" passes-failed="9" passes-completions-percentage="74.29" passes-failed-percentage="25.71" passes="35" balls-touched="53" tracking-distance="12624.61" tracking-average-speed="8.208" tracking-max-speed="27.648" tracking-sprints="16" tracking-sprints-distance="267.76" tracking-fast-runs="63" tracking-fast-runs-distance="856.00">
+            <stats-soccer-defensive saves="0" catches-punches-crosses="0" catches-punches-corners="0" goals-against-total="1" penalty-saves="0" />
+            <stats-soccer-offensive shots-total="1" offsides="0" corner-kicks="0" crosses="2" assists-total="0" shot-assists="0" freekicks="0" miss-chance="0" throw-in="2" punt="0" shots-penalty-shot-scored="0" shots-penalty-shot-missed="0" dfl-assists-total="0" shots-total-outside-box="1" shots-total-inside-box="0" shots-foot-inside-box="0" shots-foot-outside-box="1" shots-total-header="0" />
+            <stats-soccer-foul fouls-commited="0" fouls-suffered="3" yellow-red-cards="0" red-cards="0" yellow-cards="0" />
+          </player-stats-soccer>
+          <player-stats-tracking>
+            <stats-time playedTime="5542.76" playedTime_1HT="2753.92" playedTime_2HT="2788.84" />
+            <stats-ball ballTouchesTotal="53" ballTouch_OwnHalf="24" ballTouch_OpposingHalf="29" ballTouch_OwnPenaltyArea="2" ballTouch_OpposingPenaltyArea="0" ballPossessionTime="0.0" avgDistance_ToBall="20.85" />
+            <stats-passes passesTotal="35" passesTotal_Completed="26" squarePasses="12" squarePasses_Completed="10" troughBallPasses="5" troughBallPasses_Completed="2" diagonalPasses="11" diagonalPasses_Completed="9" backPasses="6" backPasses_Completed="5" passesIntoOffensiveArea="4" passesIntoOffensiveArea_Completed="3" passes_OwnHalf="18" passes_OwnHalf_Completed="14" passes_OpposingHalf="17" passes_OpposingHalf_Completed="12" />
+            <stats-duels duels_Defensive_OpposingHalf="0" duels_Defensive_OpposingHalf_Won="0" duels_OppoosingPenaltyArea="0" duels_OppoosingPenaltyArea_Won="0" duels_OwnPenaltyArea="0" duels_OwnPenaltyArea_Won="0" />
+            <stats-performance distance="12624.61" distance_1HT="6432.51" distance_2HT="6192.11" distance_Last15Minutes="2157.56" playedTime_Last15Minutes="988.8" distance_OwnHalf="7102.54" distance_OwnHalf_1HT="3428.14" distance_OwnHalf_2HT="3674.4" distance_OpposingHalf="5522.07" distance_OpposingHalf_1HT="3004.36" distance_OpposingHalf_2HT="2517.71" distance_BallInPossesion="4897.02" distance_BallInPossesion_1HT="2336.56" distance_BallInPossesion_2HT="2560.46" distance_BallNotInPossesion="7726.01" distance_BallNotInPossesion_1HT="4095.61" distance_BallNotInPossesion_2HT="3630.4" maxSpeed="7.68" />
+            <stats-runs sprints="16" sprints_Distance="270.96" sprints_1HT="10" sprints_2HT="6" sprints_Forwards="8" sprints_Backwards="8" sprints_BallInPossesion="5" sprints_BallNotInPossesion="11" fastRuns="64" fastRuns_Distance="896.57" fastRuns_1HT="30" fastRuns_2HT="34" fastRuns_Forwards="33" fastRuns_Backwards="31" fastRuns_BallInPossesion="23" fastRuns_BallNotInPossesion="41" offensiveRuns="22" offensiveRuns_Distance="598.45" offensiveRuns_1HT="10" offensiveRuns_2HT="12" />
+            <stats-goalkeeper avgDistance_Goalkeeper_EndLine="48.79" avgDistance_Goalkeeper_EndLine_AtSaves="0.0" />
+          </player-stats-tracking>
+        </player-stats>
+      </player>
+      <player>
+        <player-metadata player-key="19535" uniform-number="34">
+          <name first="Konstantin" last="Rausch" full="Konstantin Rausch" nickname="K. Rausch" extensive="Konstantin Rausch" />
+        </player-metadata>
+        <player-stats stats-coverage="standard" date-coverage-type="event" score="0">
+          <rating rating-type="standard" rating-value-goalie="5.7" rating-value-defenseman="3.7" rating-value-mid-fielder="3.8" rating-value-forward="3.9" />
+          <rating rating-type="grade" rating-value="4.1" />
+          <rating rating-type="index" rating-value-goalie="5.7" rating-value-defenseman="4.4" rating-value-mid-fielder="4.2" rating-value-forward="5.0" />
+          <player-stats-soccer duels-won="5" duels-won-ground="4" duels-won-header="1" duels-lost="8" duels-lost-ground="6" duels-lost-header="2" duels-won-percentage="38.46" passes-completed="13" passes-failed="3" passes-completions-percentage="81.25" passes-failed-percentage="18.75" passes="16" balls-touched="27" tracking-distance="10294.73" tracking-average-speed="7.884" tracking-max-speed="29.016" tracking-sprints="19" tracking-sprints-distance="293.32" tracking-fast-runs="52" tracking-fast-runs-distance="704.39">
+            <stats-soccer-defensive saves="0" catches-punches-crosses="0" catches-punches-corners="0" goals-against-total="1" penalty-saves="0" />
+            <stats-soccer-offensive shots-total="1" offsides="1" corner-kicks="0" crosses="0" assists-total="0" shot-assists="0" freekicks="2" miss-chance="0" throw-in="1" punt="0" shots-penalty-shot-scored="0" shots-penalty-shot-missed="0" dfl-assists-total="0" shots-total-outside-box="1" shots-total-inside-box="0" shots-foot-inside-box="0" shots-foot-outside-box="1" shots-total-header="0" />
+            <stats-soccer-foul fouls-commited="1" fouls-suffered="3" yellow-red-cards="0" red-cards="0" yellow-cards="1" />
+          </player-stats-soccer>
+          <player-stats-tracking>
+            <stats-time playedTime="4701.72" playedTime_1HT="2753.92" playedTime_2HT="1947.8" />
+            <stats-ball ballTouchesTotal="27" ballTouch_OwnHalf="14" ballTouch_OpposingHalf="13" ballTouch_OwnPenaltyArea="1" ballTouch_OpposingPenaltyArea="0" ballPossessionTime="0.0" avgDistance_ToBall="23.19" />
+            <stats-passes passesTotal="16" passesTotal_Completed="13" squarePasses="5" squarePasses_Completed="5" troughBallPasses="1" troughBallPasses_Completed="1" diagonalPasses="6" diagonalPasses_Completed="3" backPasses="4" backPasses_Completed="4" passesIntoOffensiveArea="1" passesIntoOffensiveArea_Completed="1" passes_OwnHalf="9" passes_OwnHalf_Completed="7" passes_OpposingHalf="7" passes_OpposingHalf_Completed="6" />
+            <stats-duels duels_Defensive_OpposingHalf="0" duels_Defensive_OpposingHalf_Won="0" duels_OppoosingPenaltyArea="0" duels_OppoosingPenaltyArea_Won="0" duels_OwnPenaltyArea="1" duels_OwnPenaltyArea_Won="0" />
+            <stats-performance distance="10294.73" distance_1HT="6034.43" distance_2HT="4260.3" distance_Last15Minutes="347.4" playedTime_Last15Minutes="147.76" distance_OwnHalf="6385.25" distance_OwnHalf_1HT="3458.73" distance_OwnHalf_2HT="2926.52" distance_OpposingHalf="3909.49" distance_OpposingHalf_1HT="2575.7" distance_OpposingHalf_2HT="1333.78" distance_BallInPossesion="3853.8" distance_BallInPossesion_1HT="2293.01" distance_BallInPossesion_2HT="1560.79" distance_BallNotInPossesion="6440.48" distance_BallNotInPossesion_1HT="3740.97" distance_BallNotInPossesion_2HT="2699.51" maxSpeed="8.06" />
+            <stats-runs sprints="19" sprints_Distance="300.9" sprints_1HT="9" sprints_2HT="10" sprints_Forwards="10" sprints_Backwards="9" sprints_BallInPossesion="9" sprints_BallNotInPossesion="10" fastRuns="52" fastRuns_Distance="720.69" fastRuns_1HT="27" fastRuns_2HT="25" fastRuns_Forwards="23" fastRuns_Backwards="29" fastRuns_BallInPossesion="16" fastRuns_BallNotInPossesion="36" offensiveRuns="17" offensiveRuns_Distance="558.39" offensiveRuns_1HT="10" offensiveRuns_2HT="7" />
+            <stats-goalkeeper avgDistance_Goalkeeper_EndLine="46.56" avgDistance_Goalkeeper_EndLine_AtSaves="0.0" />
+          </player-stats-tracking>
+        </player-stats>
+      </player>
+      <player>
+        <player-metadata player-key="43375" uniform-number="25">
+          <name first="Mohammed" last="Abdellaoue" full="Mohammed Abdellaoue" nickname="M. Abdellaoue" extensive="Mohammed Abdellaoue" />
+        </player-metadata>
+        <player-stats stats-coverage="standard" date-coverage-type="event" score="1">
+          <rating rating-type="standard" rating-value-goalie="6.9" rating-value-defenseman="4.9" rating-value-mid-fielder="6.4" rating-value-forward="6.9" />
+          <rating rating-type="grade" rating-value="2.5" />
+          <rating rating-type="index" rating-value-goalie="6.9" rating-value-defenseman="4.9" rating-value-mid-fielder="6.0" rating-value-forward="6.7" />
+          <player-stats-soccer duels-won="5" duels-won-ground="4" duels-won-header="1" duels-lost="11" duels-lost-ground="4" duels-lost-header="7" duels-won-percentage="31.25" passes-completed="4" passes-failed="5" passes-completions-percentage="44.44" passes-failed-percentage="55.56" passes="9" balls-touched="19" tracking-distance="8052.60" tracking-average-speed="6.696" tracking-max-speed="31.896" tracking-sprints="15" tracking-sprints-distance="222.58" tracking-fast-runs="23" tracking-fast-runs-distance="308.85">
+            <stats-soccer-defensive saves="0" catches-punches-crosses="0" catches-punches-corners="0" goals-against-total="1" penalty-saves="0" />
+            <stats-soccer-offensive shots-total="1" offsides="2" corner-kicks="0" crosses="0" assists-total="0" shot-assists="1" freekicks="0" miss-chance="0" throw-in="0" punt="0" shots-penalty-shot-scored="0" shots-penalty-shot-missed="0" dfl-assists-total="0" shots-total-outside-box="0" shots-total-inside-box="1" shots-foot-inside-box="1" shots-foot-outside-box="0" shots-total-header="0" />
+            <stats-soccer-foul fouls-commited="2" fouls-suffered="0" yellow-red-cards="0" red-cards="0" yellow-cards="1" />
+          </player-stats-soccer>
+          <player-stats-tracking>
+            <stats-time playedTime="4320.12" playedTime_1HT="2753.92" playedTime_2HT="1566.2" />
+            <stats-ball ballTouchesTotal="19" ballTouch_OwnHalf="9" ballTouch_OpposingHalf="10" ballTouch_OwnPenaltyArea="0" ballTouch_OpposingPenaltyArea="0" ballPossessionTime="0.0" avgDistance_ToBall="27.69" />
+            <stats-passes passesTotal="9" passesTotal_Completed="4" squarePasses="2" squarePasses_Completed="0" troughBallPasses="0" troughBallPasses_Completed="0" diagonalPasses="1" diagonalPasses_Completed="1" backPasses="6" backPasses_Completed="3" passesIntoOffensiveArea="0" passesIntoOffensiveArea_Completed="0" passes_OwnHalf="4" passes_OwnHalf_Completed="2" passes_OpposingHalf="5" passes_OpposingHalf_Completed="2" />
+            <stats-duels duels_Defensive_OpposingHalf="0" duels_Defensive_OpposingHalf_Won="0" duels_OppoosingPenaltyArea="0" duels_OppoosingPenaltyArea_Won="0" duels_OwnPenaltyArea="0" duels_OwnPenaltyArea_Won="0" />
+            <stats-performance distance="8052.6" distance_1HT="5113.25" distance_2HT="2939.35" distance_Last15Minutes="0.0" playedTime_Last15Minutes="0.0" distance_OwnHalf="2454.5" distance_OwnHalf_1HT="1373.23" distance_OwnHalf_2HT="1081.27" distance_OpposingHalf="5598.1" distance_OpposingHalf_1HT="3740.01" distance_OpposingHalf_2HT="1858.09" distance_BallInPossesion="3123.37" distance_BallInPossesion_1HT="2016.83" distance_BallInPossesion_2HT="1106.54" distance_BallNotInPossesion="4928.57" distance_BallNotInPossesion_1HT="3095.76" distance_BallNotInPossesion_2HT="1832.81" maxSpeed="8.86" />
+            <stats-runs sprints="15" sprints_Distance="227.19" sprints_1HT="9" sprints_2HT="6" sprints_Forwards="7" sprints_Backwards="8" sprints_BallInPossesion="5" sprints_BallNotInPossesion="10" fastRuns="24" fastRuns_Distance="396.43" fastRuns_1HT="14" fastRuns_2HT="10" fastRuns_Forwards="16" fastRuns_Backwards="8" fastRuns_BallInPossesion="8" fastRuns_BallNotInPossesion="16" offensiveRuns="33" offensiveRuns_Distance="1153.08" offensiveRuns_1HT="24" offensiveRuns_2HT="9" />
+            <stats-goalkeeper avgDistance_Goalkeeper_EndLine="60.0" avgDistance_Goalkeeper_EndLine_AtSaves="0.0" />
+          </player-stats-tracking>
+        </player-stats>
+      </player>
+      <player>
+        <player-metadata player-key="25715" uniform-number="13">
+          <name first="Jan" last="Schlaudraff" full="Jan Schlaudraff" nickname="J. Schlaudraff" extensive="Jan Schlaudraff" />
+        </player-metadata>
+        <player-stats stats-coverage="standard" date-coverage-type="event" score="0">
+          <rating rating-type="standard" rating-value-goalie="6.0" rating-value-defenseman="5.1" rating-value-mid-fielder="5.0" rating-value-forward="4.7" />
+          <rating rating-type="grade" rating-value="3.6" />
+          <rating rating-type="index" rating-value-goalie="6.0" rating-value-defenseman="5.2" rating-value-mid-fielder="4.7" rating-value-forward="4.5" />
+          <player-stats-soccer duels-won="4" duels-won-ground="4" duels-won-header="0" duels-lost="3" duels-lost-ground="0" duels-lost-header="3" duels-won-percentage="57.14" passes-completed="17" passes-failed="6" passes-completions-percentage="73.91" passes-failed-percentage="26.09" passes="23" balls-touched="30" tracking-distance="7478.35" tracking-average-speed="7.092" tracking-max-speed="28.692" tracking-sprints="5" tracking-sprints-distance="95.01" tracking-fast-runs="32" tracking-fast-runs-distance="464.22">
+            <stats-soccer-defensive saves="0" catches-punches-crosses="0" catches-punches-corners="0" goals-against-total="0" penalty-saves="0" />
+            <stats-soccer-offensive shots-total="0" offsides="0" corner-kicks="0" crosses="1" assists-total="0" shot-assists="0" freekicks="1" miss-chance="0" throw-in="0" punt="0" shots-penalty-shot-scored="0" shots-penalty-shot-missed="0" dfl-assists-total="0" shots-total-outside-box="0" shots-total-inside-box="0" shots-foot-inside-box="0" shots-foot-outside-box="0" shots-total-header="0" />
+            <stats-soccer-foul fouls-commited="0" fouls-suffered="0" yellow-red-cards="0" red-cards="0" yellow-cards="0" />
+          </player-stats-soccer>
+          <player-stats-tracking>
+            <stats-time playedTime="3798.48" playedTime_1HT="2753.92" playedTime_2HT="1044.56" />
+            <stats-ball ballTouchesTotal="30" ballTouch_OwnHalf="8" ballTouch_OpposingHalf="22" ballTouch_OwnPenaltyArea="0" ballTouch_OpposingPenaltyArea="1" ballPossessionTime="0.0" avgDistance_ToBall="24.22" />
+            <stats-passes passesTotal="23" passesTotal_Completed="17" squarePasses="4" squarePasses_Completed="4" troughBallPasses="2" troughBallPasses_Completed="1" diagonalPasses="7" diagonalPasses_Completed="4" backPasses="8" backPasses_Completed="8" passesIntoOffensiveArea="2" passesIntoOffensiveArea_Completed="2" passes_OwnHalf="6" passes_OwnHalf_Completed="6" passes_OpposingHalf="17" passes_OpposingHalf_Completed="11" />
+            <stats-duels duels_Defensive_OpposingHalf="0" duels_Defensive_OpposingHalf_Won="0" duels_OppoosingPenaltyArea="0" duels_OppoosingPenaltyArea_Won="0" duels_OwnPenaltyArea="0" duels_OwnPenaltyArea_Won="0" />
+            <stats-performance distance="7478.35" distance_1HT="5425.21" distance_2HT="2053.14" distance_Last15Minutes="0.0" playedTime_Last15Minutes="0.0" distance_OwnHalf="2666.06" distance_OwnHalf_1HT="1804.53" distance_OwnHalf_2HT="861.53" distance_OpposingHalf="4812.29" distance_OpposingHalf_1HT="3620.68" distance_OpposingHalf_2HT="1191.61" distance_BallInPossesion="2784.44" distance_BallInPossesion_1HT="2109.81" distance_BallInPossesion_2HT="674.62" distance_BallNotInPossesion="4693.61" distance_BallNotInPossesion_1HT="3315.1" distance_BallNotInPossesion_2HT="1378.51" maxSpeed="7.97" />
+            <stats-runs sprints="5" sprints_Distance="95.6" sprints_1HT="4" sprints_2HT="1" sprints_Forwards="2" sprints_Backwards="3" sprints_BallInPossesion="0" sprints_BallNotInPossesion="5" fastRuns="31" fastRuns_Distance="464.33" fastRuns_1HT="16" fastRuns_2HT="15" fastRuns_Forwards="19" fastRuns_Backwards="12" fastRuns_BallInPossesion="6" fastRuns_BallNotInPossesion="25" offensiveRuns="19" offensiveRuns_Distance="598.2" offensiveRuns_1HT="14" offensiveRuns_2HT="5" />
+            <stats-goalkeeper avgDistance_Goalkeeper_EndLine="55.58" avgDistance_Goalkeeper_EndLine_AtSaves="0.0" />
+          </player-stats-tracking>
+        </player-stats>
+      </player>
+      <player>
+        <player-metadata player-key="17039" uniform-number="14">
+          <name first="Markus" last="Miller" full="Markus Miller" nickname="M. Miller" extensive="Markus Miller" />
+        </player-metadata>
+        <player-stats stats-coverage="standard" date-coverage-type="event" score="0">
+          <rating rating-type="standard" rating-value-goalie="" rating-value-defenseman="" rating-value-mid-fielder="" rating-value-forward="" />
+          <rating rating-type="grade" rating-value="" />
+          <rating rating-type="index" rating-value-goalie="" rating-value-defenseman="" rating-value-mid-fielder="" rating-value-forward="" />
+          <player-stats-soccer duels-won="0" duels-won-ground="0" duels-won-header="0" duels-lost="0" duels-lost-ground="0" duels-lost-header="0" duels-won-percentage="0" passes-completed="0" passes-failed="0" passes-completions-percentage="0" passes-failed-percentage="0" passes="0" balls-touched="0" tracking-distance="0.00" tracking-average-speed="0" tracking-max-speed="0" tracking-sprints="0" tracking-sprints-distance="0.00" tracking-fast-runs="0" tracking-fast-runs-distance="0.00">
+            <stats-soccer-defensive saves="0" catches-punches-crosses="0" catches-punches-corners="0" goals-against-total="0" penalty-saves="0" />
+            <stats-soccer-offensive shots-total="0" offsides="0" corner-kicks="0" crosses="0" assists-total="0" shot-assists="0" freekicks="0" miss-chance="0" throw-in="0" punt="0" shots-penalty-shot-scored="0" shots-penalty-shot-missed="0" dfl-assists-total="0" shots-total-outside-box="0" shots-total-inside-box="0" shots-foot-inside-box="0" shots-foot-outside-box="0" shots-total-header="0" />
+            <stats-soccer-foul fouls-commited="0" fouls-suffered="0" yellow-red-cards="0" red-cards="0" yellow-cards="0" />
+          </player-stats-soccer>
+        </player-stats>
+      </player>
+      <player>
+        <player-metadata player-key="24070" uniform-number="5">
+          <name first="Mario" last="Eggimann" full="Mario Eggimann" nickname="M. Eggimann" extensive="Mario Eggimann" />
+        </player-metadata>
+        <player-stats stats-coverage="standard" date-coverage-type="event" score="0">
+          <rating rating-type="standard" rating-value-goalie="" rating-value-defenseman="" rating-value-mid-fielder="" rating-value-forward="" />
+          <rating rating-type="grade" rating-value="" />
+          <rating rating-type="index" rating-value-goalie="" rating-value-defenseman="" rating-value-mid-fielder="" rating-value-forward="" />
+          <player-stats-soccer duels-won="0" duels-won-ground="0" duels-won-header="0" duels-lost="0" duels-lost-ground="0" duels-lost-header="0" duels-won-percentage="0" passes-completed="0" passes-failed="0" passes-completions-percentage="0" passes-failed-percentage="0" passes="0" balls-touched="0" tracking-distance="0.00" tracking-average-speed="0" tracking-max-speed="0" tracking-sprints="0" tracking-sprints-distance="0.00" tracking-fast-runs="0" tracking-fast-runs-distance="0.00">
+            <stats-soccer-defensive saves="0" catches-punches-crosses="0" catches-punches-corners="0" goals-against-total="0" penalty-saves="0" />
+            <stats-soccer-offensive shots-total="0" offsides="0" corner-kicks="0" crosses="0" assists-total="0" shot-assists="0" freekicks="0" miss-chance="0" throw-in="0" punt="0" shots-penalty-shot-scored="0" shots-penalty-shot-missed="0" dfl-assists-total="0" shots-total-outside-box="0" shots-total-inside-box="0" shots-foot-inside-box="0" shots-foot-outside-box="0" shots-total-header="0" />
+            <stats-soccer-foul fouls-commited="0" fouls-suffered="0" yellow-red-cards="0" red-cards="0" yellow-cards="0" />
+          </player-stats-soccer>
+        </player-stats>
+      </player>
+      <player>
+        <player-metadata player-key="14844" uniform-number="6">
+          <name first="Steven" last="Cherundolo" full="Steven Cherundolo" nickname="S. Cherundolo" extensive="Steven Cherundolo" />
+        </player-metadata>
+        <player-stats stats-coverage="standard" date-coverage-type="event" score="0">
+          <rating rating-type="standard" rating-value-goalie="" rating-value-defenseman="" rating-value-mid-fielder="" rating-value-forward="" />
+          <rating rating-type="grade" rating-value="" />
+          <rating rating-type="index" rating-value-goalie="" rating-value-defenseman="" rating-value-mid-fielder="" rating-value-forward="" />
+          <player-stats-soccer duels-won="0" duels-won-ground="0" duels-won-header="0" duels-lost="0" duels-lost-ground="0" duels-lost-header="0" duels-won-percentage="0" passes-completed="0" passes-failed="0" passes-completions-percentage="0" passes-failed-percentage="0" passes="0" balls-touched="0" tracking-distance="0.00" tracking-average-speed="0" tracking-max-speed="0" tracking-sprints="0" tracking-sprints-distance="0.00" tracking-fast-runs="0" tracking-fast-runs-distance="0.00">
+            <stats-soccer-defensive saves="0" catches-punches-crosses="0" catches-punches-corners="0" goals-against-total="0" penalty-saves="0" />
+            <stats-soccer-offensive shots-total="0" offsides="0" corner-kicks="0" crosses="0" assists-total="0" shot-assists="0" freekicks="0" miss-chance="0" throw-in="0" punt="0" shots-penalty-shot-scored="0" shots-penalty-shot-missed="0" dfl-assists-total="0" shots-total-outside-box="0" shots-total-inside-box="0" shots-foot-inside-box="0" shots-foot-outside-box="0" shots-total-header="0" />
+            <stats-soccer-foul fouls-commited="0" fouls-suffered="0" yellow-red-cards="0" red-cards="0" yellow-cards="0" />
+          </player-stats-soccer>
+        </player-stats>
+      </player>
+      <player>
+        <player-metadata player-key="13016" uniform-number="8">
+          <name first="Altin" last="Lala" full="Altin Lala" nickname="A. Lala" extensive="Altin Lala" />
+        </player-metadata>
+        <player-stats stats-coverage="standard" date-coverage-type="event" score="0">
+          <rating rating-type="standard" rating-value-goalie="" rating-value-defenseman="" rating-value-mid-fielder="" rating-value-forward="" />
+          <rating rating-type="grade" rating-value="" />
+          <rating rating-type="index" rating-value-goalie="" rating-value-defenseman="" rating-value-mid-fielder="" rating-value-forward="" />
+          <player-stats-soccer duels-won="0" duels-won-ground="0" duels-won-header="0" duels-lost="0" duels-lost-ground="0" duels-lost-header="0" duels-won-percentage="0" passes-completed="0" passes-failed="0" passes-completions-percentage="0" passes-failed-percentage="0" passes="0" balls-touched="0" tracking-distance="0.00" tracking-average-speed="0" tracking-max-speed="0" tracking-sprints="0" tracking-sprints-distance="0.00" tracking-fast-runs="0" tracking-fast-runs-distance="0.00">
+            <stats-soccer-defensive saves="0" catches-punches-crosses="0" catches-punches-corners="0" goals-against-total="0" penalty-saves="0" />
+            <stats-soccer-offensive shots-total="0" offsides="0" corner-kicks="0" crosses="0" assists-total="0" shot-assists="0" freekicks="0" miss-chance="0" throw-in="0" punt="0" shots-penalty-shot-scored="0" shots-penalty-shot-missed="0" dfl-assists-total="0" shots-total-outside-box="0" shots-total-inside-box="0" shots-foot-inside-box="0" shots-foot-outside-box="0" shots-total-header="0" />
+            <stats-soccer-foul fouls-commited="0" fouls-suffered="0" yellow-red-cards="0" red-cards="0" yellow-cards="0" />
+          </player-stats-soccer>
+        </player-stats>
+      </player>
+      <player>
+        <player-metadata player-key="36659" uniform-number="11">
+          <name first="Didier" last="Ya Konan" full="Didier Ya Konan" nickname="D. Ya Konan" extensive="Didier Ya Konan" />
+        </player-metadata>
+        <player-stats stats-coverage="standard" date-coverage-type="event" score="0">
+          <rating rating-type="standard" rating-value-goalie="6.2" rating-value-defenseman="3.4" rating-value-mid-fielder="3.7" rating-value-forward="4.8" />
+          <rating rating-type="grade" rating-value="3.6" />
+          <rating rating-type="index" rating-value-goalie="6.2" rating-value-defenseman="3.5" rating-value-mid-fielder="3.6" rating-value-forward="4.7" />
+          <player-stats-soccer duels-won="0" duels-won-ground="0" duels-won-header="0" duels-lost="8" duels-lost-ground="3" duels-lost-header="5" duels-won-percentage="0" passes-completed="5" passes-failed="2" passes-completions-percentage="71.43" passes-failed-percentage="28.57" passes="7" balls-touched="9" tracking-distance="3315.16" tracking-average-speed="6.84" tracking-max-speed="29.196" tracking-sprints="7" tracking-sprints-distance="105.35" tracking-fast-runs="11" tracking-fast-runs-distance="159.70">
+            <stats-soccer-defensive saves="0" catches-punches-crosses="0" catches-punches-corners="0" goals-against-total="1" penalty-saves="0" />
+            <stats-soccer-offensive shots-total="2" offsides="1" corner-kicks="0" crosses="0" assists-total="0" shot-assists="1" freekicks="0" miss-chance="0" throw-in="0" punt="0" shots-penalty-shot-scored="0" shots-penalty-shot-missed="0" dfl-assists-total="0" shots-total-outside-box="1" shots-total-inside-box="1" shots-foot-inside-box="0" shots-foot-outside-box="1" shots-total-header="1" />
+            <stats-soccer-foul fouls-commited="1" fouls-suffered="0" yellow-red-cards="0" red-cards="0" yellow-cards="0" />
+          </player-stats-soccer>
+          <player-stats-tracking>
+            <stats-time playedTime="1744.28" playedTime_1HT="0.0" playedTime_2HT="1744.28" />
+            <stats-ball ballTouchesTotal="9" ballTouch_OwnHalf="2" ballTouch_OpposingHalf="7" ballTouch_OwnPenaltyArea="0" ballTouch_OpposingPenaltyArea="2" ballPossessionTime="0.0" avgDistance_ToBall="26.84" />
+            <stats-passes passesTotal="7" passesTotal_Completed="5" squarePasses="3" squarePasses_Completed="3" troughBallPasses="0" troughBallPasses_Completed="0" diagonalPasses="2" diagonalPasses_Completed="1" backPasses="2" backPasses_Completed="1" passesIntoOffensiveArea="1" passesIntoOffensiveArea_Completed="0" passes_OwnHalf="2" passes_OwnHalf_Completed="2" passes_OpposingHalf="5" passes_OpposingHalf_Completed="3" />
+            <stats-duels duels_Defensive_OpposingHalf="0" duels_Defensive_OpposingHalf_Won="0" duels_OppoosingPenaltyArea="1" duels_OppoosingPenaltyArea_Won="0" duels_OwnPenaltyArea="0" duels_OwnPenaltyArea_Won="0" />
+            <stats-performance distance="3315.16" distance_1HT="0.0" distance_2HT="3315.16" distance_Last15Minutes="1861.94" playedTime_Last15Minutes="988.8" distance_OwnHalf="816.14" distance_OwnHalf_1HT="0.0" distance_OwnHalf_2HT="816.14" distance_OpposingHalf="2499.03" distance_OpposingHalf_1HT="0.0" distance_OpposingHalf_2HT="2499.03" distance_BallInPossesion="1680.49" distance_BallInPossesion_1HT="0.0" distance_BallInPossesion_2HT="1680.49" distance_BallNotInPossesion="1633.17" distance_BallNotInPossesion_1HT="0.0" distance_BallNotInPossesion_2HT="1633.17" maxSpeed="8.11" />
+            <stats-runs sprints="7" sprints_Distance="109.87" sprints_1HT="0" sprints_2HT="7" sprints_Forwards="6" sprints_Backwards="1" sprints_BallInPossesion="4" sprints_BallNotInPossesion="3" fastRuns="11" fastRuns_Distance="165.49" fastRuns_1HT="0" fastRuns_2HT="11" fastRuns_Forwards="6" fastRuns_Backwards="5" fastRuns_BallInPossesion="6" fastRuns_BallNotInPossesion="5" offensiveRuns="20" offensiveRuns_Distance="501.98" offensiveRuns_1HT="0" offensiveRuns_2HT="20" />
+            <stats-goalkeeper avgDistance_Goalkeeper_EndLine="61.69" avgDistance_Goalkeeper_EndLine_AtSaves="0.0" />
+          </player-stats-tracking>
+        </player-stats>
+      </player>
+      <player>
+        <player-metadata player-key="30473" uniform-number="17">
+          <name first="Moritz" last="Stoppelkamp" full="Moritz Stoppelkamp" nickname="M. Stoppelkamp" extensive="Moritz Stoppelkamp" />
+        </player-metadata>
+        <player-stats stats-coverage="standard" date-coverage-type="event" score="0">
+          <rating rating-type="standard" rating-value-goalie="6.0" rating-value-defenseman="4.6" rating-value-mid-fielder="4.6" rating-value-forward="4.8" />
+          <rating rating-type="grade" rating-value="3.6" />
+          <rating rating-type="index" rating-value-goalie="6.0" rating-value-defenseman="6.6" rating-value-mid-fielder="6.6" rating-value-forward="6.7" />
+          <player-stats-soccer duels-won="2" duels-won-ground="2" duels-won-header="0" duels-lost="4" duels-lost-ground="3" duels-lost-header="1" duels-won-percentage="33.33" passes-completed="4" passes-failed="0" passes-completions-percentage="100" passes-failed-percentage="0" passes="4" balls-touched="6" tracking-distance="2024.66" tracking-average-speed="8.676" tracking-max-speed="28.008" tracking-sprints="7" tracking-sprints-distance="136.18" tracking-fast-runs="11" tracking-fast-runs-distance="182.15">
+            <stats-soccer-defensive saves="0" catches-punches-crosses="0" catches-punches-corners="0" goals-against-total="0" penalty-saves="0" />
+            <stats-soccer-offensive shots-total="0" offsides="0" corner-kicks="0" crosses="1" assists-total="0" shot-assists="1" freekicks="0" miss-chance="0" throw-in="0" punt="0" shots-penalty-shot-scored="0" shots-penalty-shot-missed="0" dfl-assists-total="0" shots-total-outside-box="0" shots-total-inside-box="0" shots-foot-inside-box="0" shots-foot-outside-box="0" shots-total-header="0" />
+            <stats-soccer-foul fouls-commited="0" fouls-suffered="0" yellow-red-cards="0" red-cards="0" yellow-cards="0" />
+          </player-stats-soccer>
+          <player-stats-tracking>
+            <stats-time playedTime="841.04" playedTime_1HT="0.0" playedTime_2HT="841.04" />
+            <stats-ball ballTouchesTotal="6" ballTouch_OwnHalf="2" ballTouch_OpposingHalf="4" ballTouch_OwnPenaltyArea="0" ballTouch_OpposingPenaltyArea="0" ballPossessionTime="0.0" avgDistance_ToBall="28.48" />
+            <stats-passes passesTotal="4" passesTotal_Completed="4" squarePasses="1" squarePasses_Completed="1" troughBallPasses="0" troughBallPasses_Completed="0" diagonalPasses="1" diagonalPasses_Completed="1" backPasses="2" backPasses_Completed="2" passesIntoOffensiveArea="0" passesIntoOffensiveArea_Completed="0" passes_OwnHalf="2" passes_OwnHalf_Completed="2" passes_OpposingHalf="2" passes_OpposingHalf_Completed="2" />
+            <stats-duels duels_Defensive_OpposingHalf="0" duels_Defensive_OpposingHalf_Won="0" duels_OppoosingPenaltyArea="0" duels_OppoosingPenaltyArea_Won="0" duels_OwnPenaltyArea="0" duels_OwnPenaltyArea_Won="0" />
+            <stats-performance distance="2024.66" distance_1HT="0.0" distance_2HT="2024.66" distance_Last15Minutes="0.0" playedTime_Last15Minutes="841.0" distance_OwnHalf="876.67" distance_OwnHalf_1HT="0.0" distance_OwnHalf_2HT="876.67" distance_OpposingHalf="1148.0" distance_OpposingHalf_1HT="0.0" distance_OpposingHalf_2HT="1148.0" distance_BallInPossesion="1021.8" distance_BallInPossesion_1HT="0.0" distance_BallInPossesion_2HT="1021.8" distance_BallNotInPossesion="999.66" distance_BallNotInPossesion_1HT="0.0" distance_BallNotInPossesion_2HT="999.66" maxSpeed="7.78" />
+            <stats-runs sprints="7" sprints_Distance="138.01" sprints_1HT="0" sprints_2HT="7" sprints_Forwards="1" sprints_Backwards="6" sprints_BallInPossesion="1" sprints_BallNotInPossesion="6" fastRuns="11" fastRuns_Distance="187.07" fastRuns_1HT="0" fastRuns_2HT="11" fastRuns_Forwards="6" fastRuns_Backwards="5" fastRuns_BallInPossesion="6" fastRuns_BallNotInPossesion="5" offensiveRuns="14" offensiveRuns_Distance="259.63" offensiveRuns_1HT="0" offensiveRuns_2HT="14" />
+            <stats-goalkeeper avgDistance_Goalkeeper_EndLine="55.9" avgDistance_Goalkeeper_EndLine_AtSaves="0.0" />
+          </player-stats-tracking>
+        </player-stats>
+      </player>
+      <player>
+        <player-metadata player-key="42734" uniform-number="9">
+          <name first="Artur" last="Sobiech" full="Artur Sobiech" nickname="A. Sobiech" extensive="Artur Sobiech" />
+        </player-metadata>
+        <player-stats stats-coverage="standard" date-coverage-type="event" score="0">
+          <rating rating-type="standard" rating-value-goalie="6.1" rating-value-defenseman="3.6" rating-value-mid-fielder="3.8" rating-value-forward="4.6" />
+          <rating rating-type="grade" rating-value="3.7" />
+          <rating rating-type="index" rating-value-goalie="6.1" rating-value-defenseman="4.2" rating-value-mid-fielder="4.1" rating-value-forward="5.6" />
+          <player-stats-soccer duels-won="2" duels-won-ground="0" duels-won-header="2" duels-lost="9" duels-lost-ground="5" duels-lost-header="4" duels-won-percentage="18.18" passes-completed="3" passes-failed="3" passes-completions-percentage="50" passes-failed-percentage="50" passes="6" balls-touched="10" tracking-distance="2688.98" tracking-average-speed="7.92" tracking-max-speed="28.908" tracking-sprints="4" tracking-sprints-distance="74.14" tracking-fast-runs="13" tracking-fast-runs-distance="149.80">
+            <stats-soccer-defensive saves="0" catches-punches-crosses="0" catches-punches-corners="0" goals-against-total="0" penalty-saves="0" />
+            <stats-soccer-offensive shots-total="1" offsides="0" corner-kicks="0" crosses="0" assists-total="0" shot-assists="0" freekicks="0" miss-chance="0" throw-in="0" punt="0" shots-penalty-shot-scored="0" shots-penalty-shot-missed="0" dfl-assists-total="0" shots-total-outside-box="0" shots-total-inside-box="1" shots-foot-inside-box="1" shots-foot-outside-box="0" shots-total-header="0" />
+            <stats-soccer-foul fouls-commited="2" fouls-suffered="0" yellow-red-cards="0" red-cards="0" yellow-cards="0" />
+          </player-stats-soccer>
+          <player-stats-tracking>
+            <stats-time playedTime="1222.64" playedTime_1HT="0.0" playedTime_2HT="1222.64" />
+            <stats-ball ballTouchesTotal="10" ballTouch_OwnHalf="1" ballTouch_OpposingHalf="9" ballTouch_OwnPenaltyArea="0" ballTouch_OpposingPenaltyArea="2" ballPossessionTime="0.0" avgDistance_ToBall="26.53" />
+            <stats-passes passesTotal="6" passesTotal_Completed="3" squarePasses="0" squarePasses_Completed="0" troughBallPasses="0" troughBallPasses_Completed="0" diagonalPasses="2" diagonalPasses_Completed="1" backPasses="3" backPasses_Completed="2" passesIntoOffensiveArea="1" passesIntoOffensiveArea_Completed="0" passes_OwnHalf="1" passes_OwnHalf_Completed="0" passes_OpposingHalf="5" passes_OpposingHalf_Completed="3" />
+            <stats-duels duels_Defensive_OpposingHalf="0" duels_Defensive_OpposingHalf_Won="0" duels_OppoosingPenaltyArea="1" duels_OppoosingPenaltyArea_Won="0" duels_OwnPenaltyArea="0" duels_OwnPenaltyArea_Won="0" />
+            <stats-performance distance="2688.98" distance_1HT="0.0" distance_2HT="2688.98" distance_Last15Minutes="2099.77" playedTime_Last15Minutes="988.8" distance_OwnHalf="592.87" distance_OwnHalf_1HT="0.0" distance_OwnHalf_2HT="592.87" distance_OpposingHalf="2096.11" distance_OpposingHalf_1HT="0.0" distance_OpposingHalf_2HT="2096.11" distance_BallInPossesion="1438.45" distance_BallInPossesion_1HT="0.0" distance_BallInPossesion_2HT="1438.45" distance_BallNotInPossesion="1249.48" distance_BallNotInPossesion_1HT="0.0" distance_BallNotInPossesion_2HT="1249.48" maxSpeed="8.03" />
+            <stats-runs sprints="4" sprints_Distance="76.91" sprints_1HT="0" sprints_2HT="4" sprints_Forwards="3" sprints_Backwards="1" sprints_BallInPossesion="2" sprints_BallNotInPossesion="2" fastRuns="13" fastRuns_Distance="158.1" fastRuns_1HT="0" fastRuns_2HT="13" fastRuns_Forwards="10" fastRuns_Backwards="3" fastRuns_BallInPossesion="11" fastRuns_BallNotInPossesion="2" offensiveRuns="19" offensiveRuns_Distance="613.69" offensiveRuns_1HT="0" offensiveRuns_2HT="19" />
+            <stats-goalkeeper avgDistance_Goalkeeper_EndLine="63.18" avgDistance_Goalkeeper_EndLine_AtSaves="0.0" />
+          </player-stats-tracking>
+        </player-stats>
+      </player>
+    </team>
+  </sports-event>
+</sports-content>
+
