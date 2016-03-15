@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<Project>
-   <name>2011-12 BL 17.Sp. K'lautern vs. Hannover</name>
-   <tracking>130375.pos</tracking>
-   <match_facts>vistrack-matchfacts-130375.xml</match_facts>
-   <team-stats>vistrack-team-stats-130375.xml</team-stats>
-   <player-stats>vistrack-player-stats-130375.xml</player-stats>
-   <actions>vistrack-actions-130375.xml</actions>
-</Project>
